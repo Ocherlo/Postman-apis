@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "f61a889a-618b-4365-a8f8-60711c6bde83",
+		"name": "Practica 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10223537"
+	},
+	"item": [
+		{
+			"name": "Options /me",
+			"request": {
+				"method": "OPTIONS",
+				"header": [],
+				"url": {
+					"raw": "https://api.spotify.com/v1/me",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get me - 401",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spotify.com/v1/me",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get me - 200",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQBhVQVCtgVjUeRLbGBnsDm-v5uwwIVaPVi0PGrV7mQmmz28FEAjxbtTnSTQvUhre9xtGExg9LAHkykKoCeibwPkMLKFglbI_j_OfqY-CbnxYSNAzTiJjXQAAgj2tXtsk6zAsnCd5ybElj9gRv73ZMIR7Kbd62WmfY4NseVQi5Ux594CwMxjbGjKUzAnONmss7TSubdgNwohRn0gG4STpEfzOcH218QD3WyiaKUp_Lu7Vu6wzD8nia8LgiHKBL_kca1oYoooxe9gR_EbvsUafiuSEYjvpHR2v7Yr0EOJ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/me",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"me"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
