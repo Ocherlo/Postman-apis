@@ -1,0 +1,194 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 266338304 bytes for Failed to commit area from 0x00000000e0000000 to 0x00000000efe00000 of length 266338304.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (t:/workspace/open/src/hotspot/os/windows/os_windows.cpp:3254), pid=12944, tid=29212
+#
+# JRE version:  (12.0.1+12) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (12.0.1+12, mixed mode, aot, sharing, tiered, compressed oops, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dallure.results.directory=C:\Users\Desarrollo3\Documents\Postman\Postman-apis\restAssured\build\allure-results -Djunit.jupiter.extensions.autodetection.enabled=true -Dorg.gradle.internal.worker.tmpdir=C:\Users\Desarrollo3\Documents\Postman\Postman-apis\restAssured\build\tmp\test\work -Dorg.gradle.native=false -javaagent:C:\Users\Desarrollo3\.gradle\caches\modules-2\files-2.1\org.aspectj\aspectjweaver\1.9.5\1740dc9140103b796d1722668805fd4cf852780c\aspectjweaver-1.9.5.jar --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED -Xmx512m -Dfile.encoding=windows-1252 -Duser.country=MX -Duser.language=es -Duser.variant -ea worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 5'
+
+Host: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, 8 cores, 15G,  Windows 10 , 64 bit Build 19041 (10.0.19041.1741)
+Time: Wed Jun 22 19:27:57 2022 Hora de verano central (México) elapsed time: 0 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000002215ebdd000):  JavaThread "Unknown thread" [_thread_in_vm, id=29212, stack(0x00000073e2300000,0x00000073e2400000)]
+
+Stack: [0x00000073e2300000,0x00000073e2400000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x63948a]
+V  [jvm.dll+0x78b31f]
+V  [jvm.dll+0x78c9c1]
+V  [jvm.dll+0x78d013]
+V  [jvm.dll+0x262138]
+V  [jvm.dll+0x63698a]
+V  [jvm.dll+0x62b505]
+V  [jvm.dll+0x31d9bc]
+V  [jvm.dll+0x31d7ef]
+V  [jvm.dll+0x323526]
+V  [jvm.dll+0x370f76]
+V  [jvm.dll+0x370750]
+V  [jvm.dll+0x2f786a]
+V  [jvm.dll+0x2f8af2]
+V  [jvm.dll+0x7657b7]
+V  [jvm.dll+0x766e95]
+V  [jvm.dll+0x37f089]
+V  [jvm.dll+0x749b14]
+V  [jvm.dll+0x3ee48d]
+V  [jvm.dll+0x3f03c1]
+C  [jli.dll+0x51cf]
+C  [ucrtbase.dll+0x21bb2]
+C  [KERNEL32.DLL+0x17034]
+C  [ntdll.dll+0x52651]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00007ffc9d4c48e8, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x000002215ec04000 GCTaskThread "GC Thread#0" [stack: 0x00000073e2400000,0x00000073e2500000] [id=13000]
+  0x000002215ec08800 ConcurrentGCThread "G1 Main Marker" [stack: 0x00000073e2500000,0x00000073e2600000] [id=24808]
+  0x000002215ec0a000 ConcurrentGCThread "G1 Conc#0" [stack: 0x00000073e2600000,0x00000073e2700000] [id=25920]
+
+[error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffc9ccf7a37]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x000002215ebd9af0] Heap_lock - owner thread: 0x000002215ebdd000
+
+Heap address: 0x00000000e0000000, size: 512 MB, Compressed Oops mode: Non-zero based: 0x00000000e0000000
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff72e700000 - 0x00007ff72e70f000 	C:\Program Files\Java\jdk-12.0.1\bin\java.exe
+0x00007ffd4cf70000 - 0x00007ffd4d167000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffd4bb10000 - 0x00007ffd4bbcd000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffd4aae0000 - 0x00007ffd4adad000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffd4a690000 - 0x00007ffd4a790000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffd1cdd0000 - 0x00007ffd1cde8000 	C:\Program Files\Java\jdk-12.0.1\bin\jli.dll
+0x00007ffd13ac0000 - 0x00007ffd13ad6000 	C:\Program Files\Java\jdk-12.0.1\bin\VCRUNTIME140.dll
+0x00007ffd4bcb0000 - 0x00007ffd4bd5e000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffd4bd90000 - 0x00007ffd4be2e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffd4b230000 - 0x00007ffd4b2cc000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffd4cd80000 - 0x00007ffd4cea5000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffd4c590000 - 0x00007ffd4c730000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffd384f0000 - 0x00007ffd3878a000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\COMCTL32.dll
+0x00007ffd4a790000 - 0x00007ffd4a7b2000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffd4cd50000 - 0x00007ffd4cd7a000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffd4adb0000 - 0x00007ffd4aebb000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffd41660000 - 0x00007ffd4166a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffd4aec0000 - 0x00007ffd4af5d000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffd4bd60000 - 0x00007ffd4bd90000 	C:\WINDOWS\System32\IMM32.DLL
+0x00007ffd0bfb0000 - 0x00007ffd0c05a000 	C:\Program Files\Java\jdk-12.0.1\bin\msvcp140.dll
+0x00007ffc9c9f0000 - 0x00007ffc9d564000 	C:\Program Files\Java\jdk-12.0.1\bin\server\jvm.dll
+0x00007ffd4be30000 - 0x00007ffd4be38000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffd35c00000 - 0x00007ffd35c09000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffd40ee0000 - 0x00007ffd40f07000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffd4c8c0000 - 0x00007ffd4c92b000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffd48f70000 - 0x00007ffd48f82000 	C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+0x00007ffd11970000 - 0x00007ffd11981000 	C:\Program Files\Java\jdk-12.0.1\bin\verify.dll
+0x00007ffd48c20000 - 0x00007ffd48e04000 	C:\WINDOWS\SYSTEM32\DBGHELP.DLL
+0x00007ffd3d210000 - 0x00007ffd3d23c000 	C:\WINDOWS\SYSTEM32\dbgcore.DLL
+0x00007ffd4a7f0000 - 0x00007ffd4a872000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffd10c40000 - 0x00007ffd10c66000 	C:\Program Files\Java\jdk-12.0.1\bin\java.dll
+0x00007ffd1ad20000 - 0x00007ffd1ad2e000 	C:\Program Files\Java\jdk-12.0.1\bin\instrument.dll
+0x00007ffd10c20000 - 0x00007ffd10c37000 	C:\Program Files\Java\jdk-12.0.1\bin\zip.dll
+0x00007ffd41a00000 - 0x00007ffd41a0a000 	C:\Program Files\Java\jdk-12.0.1\bin\jimage.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\Java\jdk-12.0.1\bin;C:\WINDOWS\SYSTEM32;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e;C:\Program Files\Java\jdk-12.0.1\bin\server
+
+VM Arguments:
+jvm_args: -Dallure.results.directory=C:\Users\Desarrollo3\Documents\Postman\Postman-apis\restAssured\build\allure-results -Djunit.jupiter.extensions.autodetection.enabled=true -Dorg.gradle.internal.worker.tmpdir=C:\Users\Desarrollo3\Documents\Postman\Postman-apis\restAssured\build\tmp\test\work -Dorg.gradle.native=false -javaagent:C:\Users\Desarrollo3\.gradle\caches\modules-2\files-2.1\org.aspectj\aspectjweaver\1.9.5\1740dc9140103b796d1722668805fd4cf852780c\aspectjweaver-1.9.5.jar --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED -Xmx512m -Dfile.encoding=windows-1252 -Duser.country=MX -Duser.language=es -Duser.variant -ea 
+java_command: worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 5'
+java_class_path (initial): C:\\Users\\Desarrollo3\\.gradle\\caches\\7.4\\workerMain\\gradle-worker.jar;C:\\Users\\Desarrollo3\\Documents\\Postman\\Postman-apis\\restAssured\\build\\classes\\java\\test;C:\\Users\\Desarrollo3\\.gradle\\caches\\modules-2\\files-2.1\\io.qameta.allure\\allure-rest-assured\\2.13.9\\e6d9b15da42761aee5d3532a032be51c352e0f2a\\allure-rest-assured-2.13.9.jar;C:\\Users\\Desarrollo3\\.gradle\\caches\\modules-2\\files-2.1\\io.qameta.allure\\allure-attachments\\2.13.9\\2977dda24a30282e8ce2d7e73af6e22a12d1dd4a\\allure-attachments-2.13.9.jar;C:\\Users\\Desarrollo3\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-launcher\\1.8.1\\c77eab66c4c4ef92ce6bd2175a5184771ff1d0dd\\junit-platform-launcher-1.8.1.jar;C:\\Users\\Desarrollo3\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-engine\\1.8.1\\e6c63bf990dc88a6527b4ed617b23e47048f07e0\\junit-platform-engine-1.8.1.jar;C:\\Users\\Desarrollo3\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-commons\\1.8.1\\1e362cbe6d0f225b066757865e233972557484\\junit-platform-commons-1.8.1.jar;C:\\Users\\Desarrollo3\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-engine\\5.8.1\\21b86e08aae2720bbf017703669948be96d1388c\\junit-jupiter-engine-5.8.1.jar;C:\\Users\\Desarrollo3\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-api\\5.8.1\\6538b88eb8bf8811bc7b6efb5246f835c15e0bfe\\junit-jupiter-api-5.8.1.jar;C:\\Users\\Desarrollo3\\.gradle\\caches\\modules-2\\files-2.1\\io.qameta.allure\\allure-junit5\\2.13.9\\25de92f6e1bdb6086df52d40bb827bb84d7e6d92\\allure-junit5-2.13.9.jar;C:\\Users\\Desarrollo3\\.gradle\\caches\\modules-2\\files-2.1\\io.qameta.allure\\allure-junit-platform\\2.13.9\\b7e51f13b3db2daa85edfcb013b86a64e651b0b8\\allure-junit-platform-2.13.9.jar;C:\\Users\\Desarrollo3\\.gradle\\caches\\modules-2\\files-2.1\\io.qameta.allure\\allure-test-filter\\2.13.9\\10079c8e21e79f04d8c00f669544c5cbfd34e3c
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 4                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 2                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 8                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 1048576                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 266338304                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 536870912                                 {product} {command line}
+   size_t MinHeapDeltaBytes                        = 1048576                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5836300                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122910970                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122910970                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+     bool UseCompressedClassPointers               = true                                 {lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                                 {lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk-12.0.1\bin
+PATH=C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Desarrollo3\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Desarrollo3\Documents\sonarqube-8.6.1.40680;C:\Program Files\Java\jdk-11.0.10\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-12.0.1\bin;C:\Users\Desarrollo3\AppData\Local\Programs\Python\Python37-32;C:\Users\Desarrollo3\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\Desarrollo3\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Desarrollo3\AppData\Local\Microsoft\WindowsApps;C:\Exercism;C:\Users\Desarrollo3\AppData\Local\GitHubDesktop\bin;C:\Users\Desarrollo3\AppData\Local\Programs\Fiddler;C:\Users\Desarrollo3\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\bin\;C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\;C:\Users\Desarrollo3\AppData\Local\Arduino15\packages\arduino\hardware\sam\1.6.11\system\CMSIS\Examples\cmsis_example\gcc_atmel\;C:\Program Files (x86)\Arduino;C:\Users\Desarrollo3\AppData\Roaming\npm
+USERNAME=Desarrollo3
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10 , 64 bit Build 19041 (10.0.19041.1741)
+
+CPU:total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 142 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, rtm, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx, fma
+
+Memory: 4k page, system-wide physical 16242M (629M free)
+TotalPageFile size 65394M (AvailPageFile size 62M)
+current process WorkingSet (physical memory assigned to process): 10M, peak: 10M
+current process commit charge ("private bytes"): 59M, peak: 313M
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (12.0.1+12) for windows-amd64 JRE (12.0.1+12), built on Apr  2 2019 14:02:19 by "mach5one" with MS VC++ 15.5 (VS2017)
+
+END.

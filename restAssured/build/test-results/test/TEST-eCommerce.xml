@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="eCommerce" tests="20" skipped="0" failures="3" errors="0" timestamp="2022-07-03T01:40:42" hostname="DESKTOP-CTOFEI0" time="25.278">
+  <properties/>
+  <testcase name="Test Case: Validar que se muestren todas las categorias" classname="eCommerce" time="4.25"/>
+  <testcase name="TC02_Obtener_Token_usando_header_authorization()" classname="eCommerce" time="1.484"/>
+  <testcase name="TC03_Obtener_toke_usando_authorization_email_pass()" classname="eCommerce" time="3.574"/>
+  <testcase name="TC04_Editar_datos_usuario()" classname="eCommerce" time="0.84"/>
+  <testcase name="TC05_CREAR_USUARIOS()" classname="eCommerce" time="1.117"/>
+  <testcase name="TC06_ACTUALIZAR_TELEFONO()" classname="eCommerce" time="0.781"/>
+  <testcase name="TC07_CREAR_DIRECCION()" classname="eCommerce" time="0.338"/>
+  <testcase name="TC08_EDITAR_DIRECCION()" classname="eCommerce" time="0.353">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)
+	at app//eCommerce.TC08_EDITAR_DIRECCION(eCommerce.java:289)
+	at java.base@12.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@12.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@12.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@12.0.1/java.lang.reflect.Method.invoke(Method.java:567)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:118)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@12.0.1/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@12.0.1/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at app//org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@12.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@12.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@12.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@12.0.1/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="TC09_OBTENER_DIRECCIONES()" classname="eCommerce" time="0.311">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;200&gt; but was: &lt;403&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;200&gt; but was: &lt;403&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
+	at app//eCommerce.TC09_OBTENER_DIRECCIONES(eCommerce.java:304)
+	at java.base@12.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@12.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@12.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@12.0.1/java.lang.reflect.Method.invoke(Method.java:567)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:118)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@12.0.1/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@12.0.1/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at app//org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@12.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@12.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@12.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@12.0.1/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="TC10_BORRAR_DIRECCION()" classname="eCommerce" time="0.691"/>
+  <testcase name="TC11_CREAR_ANUNCION()" classname="eCommerce" time="4.877"/>
+  <testcase name="TC12_CREAR_ANUNCION_SIN_IMAGEN_COMO_OBLIGATORIO()" classname="eCommerce" time="0.415"/>
+  <testcase name="TC13_EDITAR_ANUNCION()" classname="eCommerce" time="2.719"/>
+  <testcase name="TC14_OBTENER_REGIONES()" classname="eCommerce" time="0.161"/>
+  <testcase name="TC15_GUARDAR_ANUNCIO_COMO_FAVORITO()" classname="eCommerce" time="0.529">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;200&gt; but was: &lt;400&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;200&gt; but was: &lt;400&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
+	at app//eCommerce.TC15_GUARDAR_ANUNCIO_COMO_FAVORITO(eCommerce.java:431)
+	at java.base@12.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@12.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@12.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@12.0.1/java.lang.reflect.Method.invoke(Method.java:567)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:118)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@12.0.1/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@12.0.1/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at app//org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@12.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@12.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@12.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@12.0.1/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="TC16_VER_ANUNCIONS_PENDIENTES()" classname="eCommerce" time="0.537"/>
+  <testcase name="TC17_OBTENER_INFORMACION_DEL_USUARIO()" classname="eCommerce" time="0.504"/>
+  <testcase name="TC18_OBTENER_ANUNCIOS()" classname="eCommerce" time="0.185"/>
+  <testcase name="TC19_OBTENER_BALANCE_DE_USUARIO()" classname="eCommerce" time="0.414"/>
+  <testcase name="TC20_CAMBIAR_CONTRASENA()" classname="eCommerce" time="1.148"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://webapi.segundamano.mx/nga/api/v1.1/public/categories/filter?lang=es
+Proxy:			<none>
+Request params:	<none>
+Query params:	lang=es
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body Response:{"all_categories":{"color":"FFFFFF","icon":"http://www.segundamano.mx/img/nga/todas_las_categorias.png","label":"Todas las categorías"},"categories":[{"all_label":"Todas de la categoría","categories":[{"all_label":"Todas de la categoría","code":"1020","filter_value":{"keys":["category"],"values":["1020"]},"label":"Venta inmuebles"},{"all_label":"Todas de la categoría","code":"1040","filter_value":{"keys":["category"],"values":["1040"]},"label":"Renta inmuebles"},{"all_label":"Todas de la categoría","code":"1060","filter_value":{"keys":["category"],"values":["1060"]},"label":"Traspasos"},{"all_label":"Todas de la categoría","code":"1080","filter_value":{"keys":["category"],"values":["1080"]},"label":"Rentas vacacionales"},{"all_label":"Todas de la categoría","code":"1100","filter_value":{"keys":["category"],"values":["1100"]},"label":"Desarrollos inmobiliarios"}],"code":"1000","color":"FDE8DE","filter_value":{"keys":["category"],"values":["1000"]},"icon":"http://www.segundamano.mx/img/nga/inmuebles.png","label":"Inmuebles"},{"all_label":"Todas de la categoría","categories":[{"all_label":"Todas de la categoría","categories":[{"code":"2021","filter_value":{"keys":["category"],"values":["2021"]},"label":"Autos"},{"code":"2022","filter_value":{"keys":["category"],"values":["2022"]},"label":"Suv, Jeep y Van"},{"code":"2023","filter_value":{"keys":["category"],"values":["2023"]},"label":"Pick up"}],"code":"2020","filter_value":{"keys":["category"],"values":["2020"]},"label":"Automóviles y camionetas"},{"all_label":"Todas de la categoría","code":"2040","filter_value":{"keys":["category"],"values":["2040"]},"label":"Motocicletas"},{"all_label":"Todas de la categoría","categories":[{"code":"2121","filter_value":{"keys":["category"],"values":["2121"]},"label":"Autoestereos y sonido"},{"code":"2122","filter_value":{"keys":["category"],"values":["2122"]},"label":"Refacciones y otras"},{"code":"2123","filter_value":{"keys":["category"],"values":["2123"]},"label":"Rines y llantas"},{"code":"2124","filter_value":{"keys":["category"],"values":["2124"]},"label":"Remolques y cajas secas"}],"code":"2120","filter_value":{"keys":["category"],"values":["2120"]},"label":"Accesorios y piezas"},{"all_label":"Todas de la categoría","code":"2080","filter_value":{"keys":["category"],"values":["2080"]},"label":"Camiones, comerciales y casas rodantes"},{"all_label":"Todas de la categoría","code":"2060","filter_value":{"keys":["category"],"values":["2060"]},"label":"Náutica y aéreos"}],"code":"2000","color":"E1E1E1","filter_value":{"keys":["category"],"values":["2000"]},"icon":"http://www.segundamano.mx/img/nga/vehiculos.png","label":"Vehículos"},{"all_label":"Todas de la categoría","categories":[{"all_label":"Todas de la categoría","categories":[{"code":"5041","filter_value":{"keys":["category"],"values":["5041"]},"label":"Telefonía"},{"code":"5042","filter_value":{"keys":["category"],"values":["5042"]},"label":"Accesorios"}],"code":"5040","filter_value":{"keys":["category"],"values":["5040"]},"label":"Celulares y teléfonos"},{"all_label":"Todas de la categoría","code":"5080","filter_value":{"keys":["category"],"values":["5080"]},"label":"Audio, tv, video y fotografía"},{"all_label":"Todas de la categoría","categories":[{"code":"5021","filter_value":{"keys":["category"],"values":["5021"]},"label":"Laptops, PC y tabletas"},{"code":"5022","filter_value":{"keys":["category"],"values":["5022"]},"label":"Accesorios, juegos y programas"}],"code":"5020","filter_value":{"keys":["category"],"values":["5020"]},"label":"Computadoras y accesorios"},{"all_label":"Todas de la categoría","code":"5060","filter_value":{"keys":["category"],"values":["5060"]},"label":"Consolas y videojuegos"}],"code":"5000","color":"8ECBCD","filter_value":{"keys":["category"],"values":["5000"]},"icon":"http://www.segundamano.mx/img/nga/computadoras_y_electronica.png","label":"Computación y electrónica"},{"all_label":"Todas de la categoría","categories":[{"all_label":"Todas de la categoría","categories":[{"code":"3041","filter_value":{"keys":["category"],"values":["3041"]},"label":"Ventilación y calefacción"},{"code":"3042","filter_value":{"keys":["category"],"values":["3042"]},"label":"Utensilios de cocina"},{"code":"3043","filter_value":{"keys":["category"],"values":["3043"]},"label":"Electrodomésticos y línea blanca"},{"code":"3044","filter_value":{"keys":["category"],"values":["3044"]},"label":"Blancos, organización y limpieza"}],"code":"3040","filter_value":{"keys":["category"],"values":["3040"]},"label":"Todo para tu casa"},{"all_label":"Todas de la categoría","code":"3020","filter_value":{"keys":["category"],"values":["3020"]},"label":"Jardín, herramientas y exteriores"},{"all_label":"Todas de la categoría","categories":[{"code":"3061","filter_value":{"keys":["category"],"values":["3061"]},"label":"Vestidos, faldas, trajes"},{"code":"3062","filter_value":{"keys":["category"],"values":["3062"]},"label":"Zapatos"},{"code":"3063","filter_value":{"keys":["category"],"values":["3063"]},"label":"Playeras y camisas"},{"code":"3064","filter_value":{"keys":["category"],"values":["3064"]},"label":"Pantalones y shorts"},{"code":"3065","filter_value":{"keys":["category"],"values":["3065"]},"label":"Sweaters, abrigos y chamarras"},{"code":"3066","filter_value":{"keys":["category"],"values":["3066"]},"label":"Otras prendas de vestir"}],"code":"3060","filter_value":{"keys":["category"],"values":["3060"]},"label":"Ropa y calzado"},{"all_label":"Todas de la categoría","categories":[{"code":"3101","filter_value":{"keys":["category"],"values":["3101"]},"label":"Ropa, calzado y accesorios"},{"code":"3102","filter_value":{"keys":["category"],"values":["3102"]},"label":"Juguetes"},{"code":"3103","filter_value":{"keys":["category"],"values":["3103"]},"label":"Sillas y carriolas"},{"code":"3104","filter_value":{"keys":["category"],"values":["3104"]},"label":"Muebles y blancos"},{"code":"3105","filter_value":{"keys":["category"],"values":["3105"]},"label":"Cuidado y nutrición"}],"code":"3100","filter_value":{"keys":["category"],"values":["3100"]},"label":"Bebés y niños"},{"all_label":"Todas de la categoría","categories":[{"code":"3081","filter_value":{"keys":["category"],"values":["3081"]},"label":"Relojes"},{"code":"3082","filter_value":{"keys":["category"],"values":["3082"]},"label":"Joyas y bisutería"},{"code":"3083","filter_value":{"keys":["category"],"values":["3083"]},"label":"Bolsas, carteras y cinturones"},{"code":"3084","filter_value":{"keys":["category"],"values":["3084"]},"label":"Lentes, gorras y otros accesorios"}],"code":"3080","filter_value":{"keys":["category"],"values":["3080"]},"label":"Accesorios y joyería"},{"all_label":"Todas de la categoría","categories":[{"code":"3121","filter_value":{"keys":["category"],"values":["3121"]},"label":"Sala"},{"code":"3122","filter_value":{"keys":["category"],"values":["3122"]},"label":"Recámara"},{"code":"3123","filter_value":{"keys":["category"],"values":["3123"]},"label":"Comedor"},{"code":"3124","filter_value":{"keys":["category"],"values":["3124"]},"label":"Artículos de decoración"},{"code":"3125","filter_value":{"keys":["category"],"values":["3125"]},"label":"Otros muebles"}],"code":"3120","filter_value":{"keys":["category"],"values":["3120"]},"label":"Muebles y decoración"}],"code":"3000","color":"FDE8DE","filter_value":{"keys":["category"],"values":["3000"]},"icon":"http://www.segundamano.mx/img/nga/tu_hogar_y_tu.png","label":"Tu hogar y tú"},{"all_label":"Todas de la categoría","categories":[{"all_label":"Todas de la categoría","code":"6020","filter_value":{"keys":["category"],"values":["6020"]},"label":"Ofertas de empleo"},{"all_label":"Todas de la categoría","code":"6040","filter_value":{"keys":["category"],"values":["6040"]},"label":"Busco empleo"},{"all_label":"Todas de la categoría","code":"6060","filter_value":{"keys":["category"],"values":["6060"]},"label":"Educación"}],"code":"6000","color":"E1E1E1","filter_value":{"keys":["category"],"values":["6000"]},"icon":"http://www.segundamano.mx/img/nga/empleo_y_educacion.png","label":"Empleo y educación"},{"all_label":"Todas de la categoría","categories":[{"all_label":"Todas de la categoría","categories":[{"code":"4021","filter_value":{"keys":["category"],"values":["4021"]},"label":"Animales"},{"code":"4022","filter_value":{"keys":["category"],"values":["4022"]},"label":"Accesorios, cuidado y nutrición"}],"code":"4020","filter_value":{"keys":["category"],"values":["4020"]},"label":"Animales y mascotas"},{"all_label":"Todas de la categoría","categories":[{"code":"4041","filter_value":{"keys":["category"],"values":["4041"]},"label":"Ropa y calzado deportivo"},{"code":"4042","filter_value":{"keys":["category"],"values":["4042"]},"label":"Equipo, accesorios y hobbies"}],"code":"4040","filter_value":{"keys":["category"],"values":["4040"]},"label":"Deportes y hobbies"},{"all_label":"Todas de la categoría","code":"4060","filter_value":{"keys":["category"],"values":["4060"]},"label":"Instrumentos musicales"},{"all_label":"Todas de la categoría","code":"4100","filter_value":{"keys":["category"],"values":["4100"]},"label":"Coleccionismo"},{"all_label":"Todas de la categoría","code":"4080","filter_value":{"keys":["category"],"values":["4080"]},"label":"Música, libros y películas"},{"all_label":"Todas de la categoría","code":"4120","filter_value":{"keys":["category"],"values":["4120"]},"label":"Salud y belleza"},{"all_label":"Todas de la categoría","code":"4140","filter_value":{"keys":["category"],"values":["4140"]},"label":"Papelería, escolares y oficina"}],"code":"4000","color":"8ECBCD","filter_value":{"keys":["category"],"values":["4000"]},"icon":"http://www.segundamano.mx/img/nga/tiempo_libre.png","label":"Tiempo libre"},{"all_label":"Todas de la categoría","categories":[{"all_label":"Todas de la categoría","categories":[{"code":"8021","filter_value":{"keys":["category"],"values":["8021"]},"label":"Construcción"},{"code":"8022","filter_value":{"keys":["category"],"values":["8022"]},"label":"Diseño"},{"code":"8023","filter_value":{"keys":["category"],"values":["8023"]},"label":"Decoración de interiores"},{"code":"8024","filter_value":{"keys":["category"],"values":["8024"]},"label":"Remodelaciones"},{"code":"8025","filter_value":{"keys":["category"],"values":["8025"]},"label":"Jardinería"},{"code":"8026","filter_value":{"keys":["category"],"values":["8026"]},"label":"Persianas y pisos"},{"code":"8027","filter_value":{"keys":["category"],"values":["8027"]},"label":"Carpinteros"},{"code":"8028","filter_value":{"keys":["category"],"values":["8028"]},"label":"Electricista"},{"code":"8029","filter_value":{"keys":["category"],"values":["8029"]},"label":"Herrería"},{"code":"8030","filter_value":{"keys":["category"],"values":["8030"]},"label":"Albañiles"},{"code":"8031","filter_value":{"keys":["category"],"values":["8031"]},"label":"Plomero"},{"code":"8032","filter_value":{"keys":["category"],"values":["8032"]},"label":"Pintor"},{"code":"8033","filter_value":{"keys":["category"],"values":["8033"]},"label":"Limpieza"},{"code":"8034","filter_value":{"keys":["category"],"values":["8034"]},"label":"Mantenimiento de Inmuebles"}],"code":"8020","filter_value":{"keys":["category"],"values":["8020"]},"label":"Remodelaciones y mantenimiento"},{"all_label":"Todas de la categoría","categories":[{"code":"8041","filter_value":{"keys":["category"],"values":["8041"]},"label":"Arquitectos"},{"code":"8042","filter_value":{"keys":["category"],"values":["8042"]},"label":"Abogados"},{"code":"8043","filter_value":{"keys":["category"],"values":["8043"]},"label":"Contadores"},{"code":"8044","filter_value":{"keys":["category"],"values":["8044"]},"label":"Administración"},{"code":"8045","filter_value":{"keys":["category"],"values":["8045"]},"label":"Más profesionales"}],"code":"8040","filter_value":{"keys":["category"],"values":["8040"]},"label":"Profesionales"},{"all_label":"Todas de la categoría","categories":[{"code":"8061","filter_value":{"keys":["category"],"values":["8061"]},"label":"Equipo ligero"},{"code":"8062","filter_value":{"keys":["category"],"values":["8062"]},"label":"Grúas"},{"code":"8063","filter_value":{"keys":["category"],"values":["8063"]},"label":"Maquinaria y equipo pesado"}],"code":"8060","filter_value":{"keys":["category"],"values":["8060"]},"label":"Renta de maquinaria y equipo"},{"all_label":"Todas de la categoría","categories":[{"code":"8081","filter_value":{"keys":["category"],"values":["8081"]},"label":"Celulares"},{"code":"8082","filter_value":{"keys":["category"],"values":["8082"]},"label":"Computadoras y laptops"},{"code":"8083","filter_value":{"keys":["category"],"values":["8083"]},"label":"Línea Blanca"},{"code":"8084","filter_value":{"keys":["category"],"values":["8084"]},"label":"Aire acondicionado"},{"code":"8085","filter_value":{"keys":["category"],"values":["8085"]},"label":"Equipos industriales"},{"code":"8086","filter_value":{"keys":["category"],"values":["8086"]},"label":"Otros equipos electrónicos"}],"code":"8080","filter_value":{"keys":["category"],"values":["8080"]},"label":"Reparación de equipo"},{"all_label":"Todas de la categoría","code":"8100","filter_value":{"keys":["category"],"values":["8100"]},"label":"Internet y Comunicaciones"},{"all_label":"Todas de la categoría","categories":[{"code":"8121","filter_value":{"keys":["category"],"values":["8121"]},"label":"Mudanzas y fletes"},{"code":"8122","filter_value":{"keys":["category"],"values":["8122"]},"label":"Transporte de pasajeros"}],"code":"8120","filter_value":{"keys":["category"],"values":["8120"]},"label":"Transportes"},{"all_label":"Todas de la categoría","categories":[{"code":"8141","filter_value":{"keys":["category"],"values":["8141"]},"label":"Foto y video"},{"code":"8142","filter_value":{"keys":["category"],"values":["8142"]},"label":"Salon de eventos"},{"code":"8143","filter_value":{"keys":["category"],"values":["8143"]},"label":"Organización de eventos"},{"code":"8144","filter_value":{"keys":["category"],"values":["8144"]},"label":"Comida para fiestas"},{"code":"8145","filter_value":{"keys":["category"],"values":["8145"]},"label":"Alquiler de Equipamiento"},{"code":"8146","filter_value":{"keys":["category"],"values":["8146"]},"label":"Música para eventos"}],"code":"8140","filter_value":{"keys":["category"],"values":["8140"]},"label":"Eventos"},{"all_label":"Todas de la categoría","categories":[{"code":"8161","filter_value":{"keys":["category"],"values":["8161"]},"label":"Taller Mecánico"},{"code":"8162","filter_value":{"keys":["category"],"values":["8162"]},"label":"Hojalatería y pintura"},{"code":"8163","filter_value":{"keys":["category"],"values":["8163"]},"label":"Autolavado"}],"code":"8160","filter_value":{"keys":["category"],"values":["8160"]},"label":"Mantenimiento de Autos"},{"all_label":"Todas de la categoría","categories":[{"code":"8181","filter_value":{"keys":["category"],"values":["8181"]},"label":"Peluquería"},{"code":"8182","filter_value":{"keys":["category"],"values":["8182"]},"label":"Depilación"},{"code":"8183","filter_value":{"keys":["category"],"values":["8183"]},"label":"Manicura y Pedicura"},{"code":"8184","filter_value":{"keys":["category"],"values":["8184"]},"label":"Maquillaje"},{"code":"8185","filter_value":{"keys":["category"],"values":["8185"]},"label":"Masajes y Spa"}],"code":"8180","filter_value":{"keys":["category"],"values":["8180"]},"label":"Cuidado personal, belleza y estética"},{"all_label":"Todas de la categoría","categories":[{"code":"8201","filter_value":{"keys":["category"],"values":["8201"]},"label":"Diseño gráfico y digital"},{"code":"8202","filter_value":{"keys":["category"],"values":["8202"]},"label":"Imprenta"},{"code":"8203","filter_value":{"keys":["category"],"values":["8203"]},"label":"Promocionales"}],"code":"8200","filter_value":{"keys":["category"],"values":["8200"]},"label":"Publicidad"},{"all_label":"Todas de la categoría","categories":[{"code":"8221","filter_value":{"keys":["category"],"values":["8221"]},"label":"Veterinarias"},{"code":"8222","filter_value":{"keys":["category"],"values":["8222"]},"label":"Paseadores y cuidadores"},{"code":"8223","filter_value":{"keys":["category"],"values":["8223"]},"label":"Estética canina"}],"code":"8220","filter_value":{"keys":["category"],"values":["8220"]},"label":"Servicios para mascota"},{"all_label":"Todas de la categoría","categories":[{"code":"8241","filter_value":{"keys":["category"],"values":["8241"]},"label":"Accesorios y servicios funerarios"},{"code":"8242","filter_value":{"keys":["category"],"values":["8242"]},"label":"Fabricación"},{"code":"8243","filter_value":{"keys":["category"],"values":["8243"]},"label":"Varios"}],"code":"8240","filter_value":{"keys":["category"],"values":["8240"]},"label":"Otros Servicios"}],"code":"8000","color":"FDE8DE","filter_value":{"keys":["category"],"values":["8000"]},"icon":"http://www.segundamano.mx/img/nga/servicios.png","label":"Servicios"},{"all_label":"Todas de la categoría","categories":[{"all_label":"Todas de la categoría","code":"9020","filter_value":{"keys":["category"],"values":["9020"]},"label":"Venta y Traspasos"},{"all_label":"Todas de la categoría","categories":[{"code":"9041","filter_value":{"keys":["category"],"values":["9041"]},"label":"Alimentos"},{"code":"9042","filter_value":{"keys":["category"],"values":["9042"]},"label":"Mobiliario"},{"code":"9043","filter_value":{"keys":["category"],"values":["9043"]},"label":"Industrial"}],"code":"9040","filter_value":{"keys":["category"],"values":["9040"]},"label":"Equipamiento e Insumos"}],"code":"9000","color":"FDE8DE","filter_value":{"keys":["category"],"values":["9000"]},"icon":"http://www.segundamano.mx/img/nga/negocios_y_servicios.png","label":"Negocios e Industria"}]}
+Headers :Server=nginx
+Content-Type=application/json; charset=utf-8
+Vary=Accept-Encoding
+X-SCM-API-Version=1.1
+Cache-Control=max-age=31536000
+ETag=W/"454f075aee4dc3c414ec981431530f58"
+Date=Sat, 25 Jun 2022 00:14:27 GMT
+X-Frame-Options=DENY
+Content-Encoding=gzip
+Via=1.1 google
+Alt-Svc=h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding=chunked
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/nga/api/v1.1/private/accounts?lang=es
+Proxy:			<none>
+Request params:	<none>
+Query params:	lang=es
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic d2F0c29uMTZjX3g3NDByQHllZnguaW5mbzpwYXNzd29yZDEyMw==
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body response :{"access_token":"mc1x894dcf79e2229412efd4403182ac03e97933f0dc_v2","account":{"account_id":"/private/accounts/11708897","can_publish":true,"email":"watson16c_x740r@yefx.info","email_verified":true,"locations":[],"name":"null","phone":"571200417","phone_hidden":false,"professional":false,"rfc":"","uuid":"e8327699-e69c-4bc8-8d05-b0963d64d77d"},"ad_events":{"24h":{"calls":0,"mails":0,"phone_views":0,"views":0},"7d":{"calls":0,"mails":0,"phone_views":0,"views":0},"total":{"calls":0,"mails":0,"phone_views":0,"views":0}},"token_type":"tag:scmcoord.com,2013:api"}
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/nga/api/v1.1/private/accounts?lang=es
+Proxy:			<none>
+Request params:	<none>
+Query params:	lang=es
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic d2F0c29uMTZjX3g3NDByQHllZnguaW5mbzpwYXNzd29yZDEyMw==
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+{
+    "access_token": "mc1x5a012ca5caf32bd6df3f5d10197c1ade3d338ab4_v2",
+    "account": {
+        "account_id": "/private/accounts/11708897",
+        "can_publish": true,
+        "email": "watson16c_x740r@yefx.info",
+        "email_verified": true,
+        "locations": [
+            
+        ],
+        "name": "null",
+        "phone": "571200417",
+        "phone_hidden": false,
+        "professional": false,
+        "rfc": "",
+        "uuid": "e8327699-e69c-4bc8-8d05-b0963d64d77d"
+    },
+    "ad_events": {
+        "24h": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        },
+        "7d": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        },
+        "total": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        }
+    },
+    "token_type": "tag:scmcoord.com,2013:api"
+}
+Body Response:{
+    "access_token": "mc1x5a012ca5caf32bd6df3f5d10197c1ade3d338ab4_v2",
+    "account": {
+        "account_id": "/private/accounts/11708897",
+        "can_publish": true,
+        "email": "watson16c_x740r@yefx.info",
+        "email_verified": true,
+        "locations": [
+            
+        ],
+        "name": "null",
+        "phone": "571200417",
+        "phone_hidden": false,
+        "professional": false,
+        "rfc": "",
+        "uuid": "e8327699-e69c-4bc8-8d05-b0963d64d77d"
+    },
+    "ad_events": {
+        "24h": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        },
+        "7d": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        },
+        "total": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        }
+    },
+    "token_type": "tag:scmcoord.com,2013:api"
+}
+Headers :Server=nginx
+Date=Sun, 03 Jul 2022 01:40:49 GMT
+Content-Type=application/json; charset=utf-8
+Vary=Accept-Encoding
+X-SCM-API-Version=1.1
+X-Frame-Options=DENY
+Content-Encoding=gzip
+Via=1.1 google
+Alt-Svc=h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding=chunked
+Status Code :200
+Time response :1389
+AccessToken mc1x5a012ca5caf32bd6df3f5d10197c1ade3d338ab4_v2
+Access Token mc1x5a012ca5caf32bd6df3f5d10197c1ade3d338ab4_v2
+Account Id: /private/accounts/11708897
+uuid: e8327699-e69c-4bc8-8d05-b0963d64d77d
+Request method:	PATCH
+Request URI:	https://webapi.segundamano.mx/nga/api/v1/private/accounts/11708897?lang=es
+Proxy:			<none>
+Request params:	<none>
+Query params:	lang=es
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=tag:scmcoord.com,2013:api mc1x5a012ca5caf32bd6df3f5d10197c1ade3d338ab4_v2
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "account": {
+        "name": "testsegundamanos",
+        "phone": "3221827122",
+        "locations": [
+            {
+                "code": "16",
+                "key": "region",
+                "label": "Jalisco",
+                "locations": [
+                    {
+                        "code": "633",
+                        "key": "municipality",
+                        "label": "Tala"
+                    }
+                ]
+            }
+        ],
+        "professional": false,
+        "phone_hidden": false
+    }
+}
+Body response :{"account":{"account_id":"/private/accounts/11708897","can_publish":true,"email":"watson16c_x740r@yefx.info","email_verified":true,"locations":[{"code":"16","key":"region","label":"Jalisco","locations":[{"code":"633","key":"municipality","label":"Tala"}]}],"name":"testsegundamanos","phone":"3221827122","phone_hidden":false,"professional":false,"rfc":"","uuid":"e8327699-e69c-4bc8-8d05-b0963d64d77d"}}
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/nga/api/v1.1/private/accounts?lang=es
+Proxy:			<none>
+Request params:	<none>
+Query params:	lang=es
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YWdlbnRlX3ZlbnRhczMwMC4wQG1haWxpbmF0b3IuY29tOjczNDMzOS4w
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "account": {
+        "email": "agente_ventas300.0@mailinator.com"
+    }
+}
+Body response :{"error":{"code":"ACCOUNT_VERIFICATION_REQUIRED"}}
+Request method:	PATCH
+Request URI:	https://webapi.segundamano.mx/nga/api/v1/private/accounts/11708897?lang=es
+Proxy:			<none>
+Request params:	<none>
+Query params:	lang=es
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=tag:scmcoord.com,2013:api mc1x5a012ca5caf32bd6df3f5d10197c1ade3d338ab4_v2
+				Accept=application/json, text/plain, */*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "account": {
+        "name": "null",
+        "phone": "1001263297",
+        "professional": false
+    }
+}
+Body response :{"account":{"account_id":"/private/accounts/11708897","can_publish":true,"email":"watson16c_x740r@yefx.info","email_verified":true,"locations":[],"name":"null","phone":"1001263297","phone_hidden":false,"professional":false,"rfc":"","uuid":"e8327699-e69c-4bc8-8d05-b0963d64d77d"}}
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/addresses/v1/create
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	contact=Juan Paco
+				phone=3333333333
+				rfc=XAXX010101000
+				zipCode=44000
+				exteriorInfo=calle
+				interiorIngo=12
+				region=16
+				municipality=589
+				area=128361
+				alias=Casa
+Path params:	<none>
+Headers:		Authorization=Basic ZTgzMjc2OTktZTY5Yy00YmM4LThkMDUtYjA5NjNkNjRkNzdkOm1jMXg1YTAxMmNhNWNhZjMyYmQ2ZGYzZjVkMTAxOTdjMWFkZTNkMzM4YWI0X3Yy
+				contect-type=application/x-www-form-urlencoded
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body response :{"addressID":"ef6e28e4-fa6a-11ec-9b09-47135cbd0bc5"}
+Request method:	PUT
+Request URI:	https://webapi.segundamano.mx/addresses/v1/modify/ef6e28e4-fa6a-11ec-9b09-47135cbd0bc5
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	contact=Juan Paco Pedro
+				phone=3323333332
+				rfc=XEXX010101000
+				zipCode=44000
+				exteriorInfo=calle
+				interiorIngo=12
+				region=16
+				municipality=589
+				area=128361
+				alias=Casa y Oficina
+Path params:	<none>
+Headers:		Authorization=Basic ZTgzMjc2OTktZTY5Yy00YmM4LThkMDUtYjA5NjNkNjRkNzdkOm1jMXg1YTAxMmNhNWNhZjMyYmQ2ZGYzZjVkMTAxOTdjMWFkZTNkMzM4YWI0X3Yy
+				contect-type=application/x-www-form-urlencoded
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body response :{"message":"ef6e28e4-fa6a-11ec-9b09-47135cbd0bc5 modified correctly"}
+Request method:	GET
+Request URI:	https://webapi.segundamano.mx/addresses/v1/get
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ZTgzMjc2OTktZTY5Yy00YmM4LThkMDUtYjA5NjNkNjRkNzdkOm1jMXg0YzgzNmFmOTExNWU0OWU4NjdhYzgxYTQ4M2UxOGJhZDA0ZWI5Y2I5X3Yy
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body response :{"error":"Authorization failed"}
+Request method:	DELETE
+Request URI:	https://webapi.segundamano.mx/addresses/v1/delete/ef6e28e4-fa6a-11ec-9b09-47135cbd0bc5
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ZTgzMjc2OTktZTY5Yy00YmM4LThkMDUtYjA5NjNkNjRkNzdkOm1jMXg1YTAxMmNhNWNhZjMyYmQ2ZGYzZjVkMTAxOTdjMWFkZTNkMzM4YWI0X3Yy
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body response :{"message":"ef6e28e4-fa6a-11ec-9b09-47135cbd0bc5 deleted correctly"}
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/nga/api/v1.1/private/accounts?lang=es
+Proxy:			<none>
+Request params:	<none>
+Query params:	lang=es
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic d2F0c29uMTZjX3g3NDByQHllZnguaW5mbzpwYXNzd29yZDEyMw==
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body response :{"access_token":"mc1x90e809d0256bc73f2b00b81eeadbe12101c25897_v2","account":{"account_id":"/private/accounts/11708897","can_publish":true,"email":"watson16c_x740r@yefx.info","email_verified":true,"locations":[],"name":"null","phone":"1001263297","phone_hidden":false,"professional":false,"rfc":"","uuid":"e8327699-e69c-4bc8-8d05-b0963d64d77d"},"ad_events":{"24h":{"calls":0,"mails":0,"phone_views":0,"views":0},"7d":{"calls":0,"mails":0,"phone_views":0,"views":0},"total":{"calls":0,"mails":0,"phone_views":0,"views":0}},"token_type":"tag:scmcoord.com,2013:api"}
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/v2/accounts/e8327699-e69c-4bc8-8d05-b0963d64d77d/up
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ZTgzMjc2OTktZTY5Yy00YmM4LThkMDUtYjA5NjNkNjRkNzdkOm1jMXg5MGU4MDlkMDI1NmJjNzNmMmIwMGI4MWVlYWRiZTEyMTAxYzI1ODk3X3Yy
+				x-source=PHOENIX_DESKTOP
+				origin=https://www.segundamano.mx
+				Accept=application/json, text/plain, */*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "category": "8121",
+    "subject": "Mudanzas y fletes baratos a todo mexico",
+    "body": "Si estas buscando una mudanza barata, esta es tu opciÃ³n. Tenemos cobertura en todo el paÃ­s",
+    "region": "5",
+    "municipality": "51",
+    "area": "140000",
+    "price": "1",
+    "phone_hidden": "true",
+    "show_phone": "false",
+    "contact_phone": "3333333333"
+}
+Body response :{"data":{"ad":{"ad_id":"74166112","subject":"Mudanzas y fletes baratos a todo mexico","category":{"code":"8121","label":"Mudanzas y fletes","parent":{"code":"8120","label":"Transportes","parent":{"code":"8000","label":"Servicios"}}},"region":{"code":"5","label":"Baja California Sur"},"municipality":{"code":"51","label":"Comondú"},"area":{"code":"140000","label":"Otra"},"price":{"currency":"MXN","value":1}},"payment_info":{"payment_required":false,"title":"¡Vende más rápido con los Productos Premium!","description":"Elige la opción que mejor se ajuste a tus necesidades","products":[{"id":"serv_free","name":"Anuncio básico","label":"Anuncio con exposición regular, tendrás menos visitas","description":"Anuncio con exposición regular, tendrás menos visitas","price":0,"most_popular":false,"active":true,"payment_methods":["pay_method_tokens"]},{"id":"serv_daily","name":"Subir Diario","label":"Recibe hasta 5 veces más contactos en 7 días","description":"","price":120,"credits":120,"most_popular":false,"active":true,"payment_methods":["pay_method_paypal","pay_method_oxxo","pay_method_credit","pay_method_points"]},{"id":"serv_premiumpackage_2","name":"Subir diario y Posición principal","label":"Recibe hasta 12 veces más contactos","description":"Sube tu anuncio todos los días durante 7 días y pon tu anuncio en la primera posición durante 3 días","price":220,"credits":220,"most_popular":true,"active":true,"tag":{"slug":"tag_recommended","name":"RECOMENDADO"},"payment_methods":["pay_method_paypal","pay_method_oxxo","pay_method_credit","pay_method_points"]}]}}}
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/v2/accounts/e8327699-e69c-4bc8-8d05-b0963d64d77d/up
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ZTgzMjc2OTktZTY5Yy00YmM4LThkMDUtYjA5NjNkNjRkNzdkOm1jMXg5MGU4MDlkMDI1NmJjNzNmMmIwMGI4MWVlYWRiZTEyMTAxYzI1ODk3X3Yy
+				x-source=PHOENIX_DESKTOP
+				origin=https://www.segundamano.mx
+				Accept=application/json, text/plain, */*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "category": "2020",
+    "subject": "Mudanzas y fletes baratos a todo mexico",
+    "body": "Si estas buscando una mudanza barata, esta es tu opciÃ³n. Tenemos cobertura en todo el paÃ­s",
+    "region": "5",
+    "municipality": "51",
+    "area": "140000",
+    "price": "1",
+    "phone_hidden": "true",
+    "show_phone": "false",
+    "contact_phone": "3333333333"
+}
+Body response :{"data":{"errors":[{"field":"images","message":"el campo es obligatorio"}]},"error":"AD_INPUT_VALIDATION_FAILED"}
+Request method:	PUT
+Request URI:	https://webapi.segundamano.mx/v2/accounts/e8327699-e69c-4bc8-8d05-b0963d64d77d/up/74166112
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ZTgzMjc2OTktZTY5Yy00YmM4LThkMDUtYjA5NjNkNjRkNzdkOm1jMXg5MGU4MDlkMDI1NmJjNzNmMmIwMGI4MWVlYWRiZTEyMTAxYzI1ODk3X3Yy
+				x-source=PHOENIX_DESKTOP
+				origin=https://www.segundamano.mx
+				Accept=application/json, text/plain, */*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "category": "8121",
+    "subject": "Mudanzas fletes y mÃ¡s baratos a todo mexico",
+    "body": "Si estas buscando una mudanza baratas, tenemos todo tipo de transporte",
+    "region": "5",
+    "municipality": "51",
+    "area": "140000",
+    "price": "2500",
+    "phone_hidden": "true",
+    "show_phone": "false",
+    "contact_phone": "3333333333"
+}
+Body response :{"data":{"ad":{"ad_id":"74166112","subject":"Mudanzas fletes y mÃ¡s baratos a todo mexico","category":{"code":"8121","label":"Mudanzas y fletes","parent":{"code":"8120","label":"Transportes","parent":{"code":"8000","label":"Servicios"}}},"region":{"code":"5","label":"Baja California Sur"},"municipality":{"code":"51","label":"Comondú"},"area":{"code":"140000","label":"Otra"},"price":{"currency":"MXN","value":2500}}}}
+Request method:	GET
+Request URI:	https://webapi.segundamano.mx/nga/api/v1.1/public/regions?depth=1&lang=es
+Proxy:			<none>
+Request params:	<none>
+Query params:	depth=1
+				lang=es
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body response :{"all_label":"Todo México","children":32,"locations":[{"all_label":"Todos los municipios","children":11,"code":"3","filter_value":{"keys":["region"],"values":["3"]},"key":"region","label":"Aguascalientes"},{"all_label":"Todos los municipios","children":6,"code":"4","filter_value":{"keys":["region"],"values":["4"]},"key":"region","label":"Baja California"},{"all_label":"Todos los municipios","children":5,"code":"5","filter_value":{"keys":["region"],"values":["5"]},"key":"region","label":"Baja California Sur"},{"all_label":"Todos los municipios","children":12,"code":"6","filter_value":{"keys":["region"],"values":["6"]},"key":"region","label":"Campeche"},{"all_label":"Todos los municipios","children":124,"code":"9","filter_value":{"keys":["region"],"values":["9"]},"key":"region","label":"Chiapas"},{"all_label":"Todos los municipios","children":67,"code":"10","filter_value":{"keys":["region"],"values":["10"]},"key":"region","label":"Chihuahua"},{"all_label":"Todas las delegaciones","children":16,"code":"11","filter_value":{"keys":["region"],"values":["11"]},"key":"region","label":"Ciudad de México"},{"all_label":"Todos los municipios","children":38,"code":"7","filter_value":{"keys":["region"],"values":["7"]},"key":"region","label":"Coahuila"},{"all_label":"Todos los municipios","children":10,"code":"8","filter_value":{"keys":["region"],"values":["8"]},"key":"region","label":"Colima"},{"all_label":"Todos los municipios","children":39,"code":"12","filter_value":{"keys":["region"],"values":["12"]},"key":"region","label":"Durango"},{"all_label":"Todos los municipios","children":125,"code":"17","filter_value":{"keys":["region"],"values":["17"]},"key":"region","label":"Estado de México"},{"all_label":"Todos los municipios","children":46,"code":"13","filter_value":{"keys":["region"],"values":["13"]},"key":"region","label":"Guanajuato"},{"all_label":"Todos los municipios","children":81,"code":"14","filter_value":{"keys":["region"],"values":["14"]},"key":"region","label":"Guerrero"},{"all_label":"Todos los municipios","children":84,"code":"15","filter_value":{"keys":["region"],"values":["15"]},"key":"region","label":"Hidalgo"},{"all_label":"Todos los municipios","children":125,"code":"16","filter_value":{"keys":["region"],"values":["16"]},"key":"region","label":"Jalisco"},{"all_label":"Todos los municipios","children":113,"code":"18","filter_value":{"keys":["region"],"values":["18"]},"key":"region","label":"Michoacán"},{"all_label":"Todos los municipios","children":36,"code":"19","filter_value":{"keys":["region"],"values":["19"]},"key":"region","label":"Morelos"},{"all_label":"Todos los municipios","children":20,"code":"20","filter_value":{"keys":["region"],"values":["20"]},"key":"region","label":"Nayarit"},{"all_label":"Todos los municipios","children":51,"code":"21","filter_value":{"keys":["region"],"values":["21"]},"key":"region","label":"Nuevo León"},{"all_label":"Todos los municipios","children":570,"code":"22","filter_value":{"keys":["region"],"values":["22"]},"key":"region","label":"Oaxaca"},{"all_label":"Todos los municipios","children":217,"code":"23","filter_value":{"keys":["region"],"values":["23"]},"key":"region","label":"Puebla"},{"all_label":"Todos los municipios","children":18,"code":"24","filter_value":{"keys":["region"],"values":["24"]},"key":"region","label":"Querétaro"},{"all_label":"Todos los municipios","children":11,"code":"25","filter_value":{"keys":["region"],"values":["25"]},"key":"region","label":"Quintana Roo"},{"all_label":"Todos los municipios","children":58,"code":"26","filter_value":{"keys":["region"],"values":["26"]},"key":"region","label":"San Luis Potosí"},{"all_label":"Todos los municipios","children":18,"code":"27","filter_value":{"keys":["region"],"values":["27"]},"key":"region","label":"Sinaloa"},{"all_label":"Todos los municipios","children":72,"code":"28","filter_value":{"keys":["region"],"values":["28"]},"key":"region","label":"Sonora"},{"all_label":"Todos los municipios","children":17,"code":"29","filter_value":{"keys":["region"],"values":["29"]},"key":"region","label":"Tabasco"},{"all_label":"Todos los municipios","children":43,"code":"30","filter_value":{"keys":["region"],"values":["30"]},"key":"region","label":"Tamaulipas"},{"all_label":"Todos los municipios","children":60,"code":"31","filter_value":{"keys":["region"],"values":["31"]},"key":"region","label":"Tlaxcala"},{"all_label":"Todos los municipios","children":212,"code":"32","filter_value":{"keys":["region"],"values":["32"]},"key":"region","label":"Veracruz"},{"all_label":"Todos los municipios","children":106,"code":"33","filter_value":{"keys":["region"],"values":["33"]},"key":"region","label":"Yucatán"},{"all_label":"Todos los municipios","children":58,"code":"34","filter_value":{"keys":["region"],"values":["34"]},"key":"region","label":"Zacatecas"}]}
+Request method:	POST
+Request URI:	https://webapi.segundamano.mx/favorites/v1/private/accounts/938316105
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic ZTgzMjc2OTktZTY5Yy00YmM4LThkMDUtYjA5NjNkNjRkNzdkOm1jMXg5MGU4MDlkMDI1NmJjNzNmMmIwMGI4MWVlYWRiZTEyMTAxYzI1ODk3X3Yy
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"list_ids":[938316105]}"
+Body response :{"data":null,"errors":["can't parse body"]}
+
+Request method:	GET
+Request URI:	https://webapi.segundamano.mx/nga/api/v1/private/accounts/11708897/klfst?status=pending&lim=10&o=0&query=&lang=es
+Proxy:			<none>
+Request params:	<none>
+Query params:	status=pending
+				lim=10
+				o=0
+				query=
+				lang=es
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=tag:scmcoord.com,2013:api mc1x90e809d0256bc73f2b00b81eeadbe12101c25897_v2
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body response :{"counter_map":{"all":1,"pending":1},"private_ads":[{"ad":{"ad_id":"/private/accounts/11708897/ads/74166112","category":{"code":"8121","color":"FDE8DE","icon":"http://www.segundamano.mx/img/nga/servicios.png","label":"Mudanzas y fletes"},"subject":"Mudanzas fletes y mÃ¡s baratos a todo mexico"},"labelmap":{"category":"Categoría","subject":"Título"},"statistics":{"total":{"calls":0,"mails":0,"phone_views":0,"views":0}}}]}
+Request method:	GET
+Request URI:	https://webapi.segundamano.mx/nga/api/v1/private/accounts/11708897?lang=es
+Proxy:			<none>
+Request params:	<none>
+Query params:	lang=es
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=tag:scmcoord.com,2013:api mc1x90e809d0256bc73f2b00b81eeadbe12101c25897_v2
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body response :{"account":{"account_id":"/private/accounts/11708897","can_publish":true,"email":"watson16c_x740r@yefx.info","email_verified":true,"locations":[],"name":"null","phone":"1001263297","phone_hidden":false,"professional":false,"rfc":"","uuid":"e8327699-e69c-4bc8-8d05-b0963d64d77d"}}
+Request method:	GET
+Request URI:	https://webapi.segundamano.mx/listing?lang=es
+Proxy:			<none>
+Request params:	<none>
+Query params:	lang=es
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=tag:scmcoord.com,2013:api mc1x90e809d0256bc73f2b00b81eeadbe12101c25897_v2
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body response :{"list_ads":[{"ad":{"list_id":"/public/ads/938506519","list_price":{"currency":"MXN","label":"$ 2,900","price_value":2900,"old_price":{"label":"$ 3,200","price_value":3200}},"prices":[{"currency":"MXN","label":"$ 2,900","price_value":2900,"old_price":{"label":"$ 3,200","price_value":3200}}],"share_link":"https://www.segundamano.mx/anuncios/jalisco/zapopan/renta-inmuebles/fraccionamiento-palermo-938506519","subject":"FRACCIONAMIENTO PALERMO","thumbnail":{"path":"71/7191794705.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"71/7191794705.jpg","base_url":"http://img.segundamano.mx"},{"path":"71/7138970956.jpg","base_url":"http://img.segundamano.mx"},{"path":"71/7168504576.jpg","base_url":"http://img.segundamano.mx"},{"path":"71/7142934619.jpg","base_url":"http://img.segundamano.mx"},{"path":"71/7177027895.jpg","base_url":"http://img.segundamano.mx"},{"path":"71/7159981257.jpg","base_url":"http://img.segundamano.mx"},{"path":"71/7185551214.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"GERARDO","since":"2013-06-19 19:00:07.585951","user_uuid":"958d23ac-5837-41a1-bae5-6baa9c930454"}},"locations":[{"code":"16","key":"region","label":"Jalisco","locations":[{"code":"670","key":"municipality","label":"Zapopan","locations":[{"code":"59654","key":"area","label":"Palermo (Fracc.)"}]}]}],"body":"El inmueble cuenta con lo siguiente:\n2 recamaras.\n1 baño completo.\nCochera 2 autos.\nCoto privado con vigilancia.\nPatio de servicio.\nSala comedor.\nCocineta\n\nRequisitos:\nMes de renta.\nMes de depósito.\nAval con propiedad.\nComprobante de ingresos.\n2 referencias personales.\n2 referencias laborales.\n","category":{"code":"1040","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Renta inmuebles","parent":{"code":"1040","label":"Renta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 19:33 CDT","value":1656808393},"ad_details":{"bathrooms":{"single":{"code":"2","label":"1"}},"estate_type":{"single":{"code":"2","label":"Casas"}},"lot_area":{"single":{"code":"110","label":"110 m²"}},"parking_lots":{"single":{"code":"3","label":"2"}},"rooms":{"single":{"code":"1","label":"1"}},"size":{"single":{"code":"89","label":"89 m²"}}},"ad_id":"/private/accounts/2892494/ads/74134741","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"u","label":"Rento"},"price_drop":true,"pole_position":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Municipio","parking_lots":"Estacionamiento","prices":"Renta","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre"}},{"ad":{"list_id":"/public/ads/938415140","list_price":{"currency":"MXN","label":"$ 1,380,000","price_value":1380000},"prices":[{"currency":"MXN","label":"$ 1,380,000","price_value":1380000}],"share_link":"https://www.segundamano.mx/anuncios/ciudad-de-mexico/alvaro-obregon/venta-inmuebles/21951-av-centenario-lomas-de-plateros-938415140","subject":"21951 Av. Centenario, Lomas de Plateros","thumbnail":{"path":"75/7532720725.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7532720725.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7598627449.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7507150768.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7515674087.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7524197406.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7558290682.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7541244044.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7549767363.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7575337320.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7566814001.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7583860639.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7526477234.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7592383958.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7517953915.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7509430596.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7535000553.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7543523872.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7560570510.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7552047191.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7569093829.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"11","key":"region","label":"Ciudad de México","locations":[{"code":"290","key":"municipality","label":"Álvaro Obregón","locations":[{"code":"7292","key":"area","label":"Lomas de Plateros"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2206-6BFD - Cómodo y bonito departamento en venta, ubicado en la colonia Lomas de Plateros, en el conjunto habitacional Plateros. Es un departamento de fácil acceso ubicado en un segundo piso sin elevadores, con acceso directo a la sala comedor, que cuenta con una 2 cómodas recámaras con clósets en carpinteria que comparten un baño completo con lavamanos, taza y espacio con buenos acabados en las zonas húmedas. El departamento es de unos 67 metros cuadrados y entre la distribución cuenta con un cocina integral cómoda, ademas no cuenta con cajón de estacionamiento y se encuentra cercano a vialidades principales como la avenida Centenario, cercano al supermercado Walmart, a farmacias, restaurantes y a 2 minutos del periférico y a 6 minutos de Santa Fe. Es in duda una ideal propiedad para habitar en una zona céntrica y de rápido acceso a ubicaciones estratégicas al sur de la ciudad.","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:34 CDT","value":1656812045},"ad_details":{"bathrooms":{"single":{"code":"2","label":"1"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"1","label":"Departamentos"}},"parking_lots":{"single":{"code":"1","label":"0"}},"rooms":{"single":{"code":"2","label":"2"}}},"ad_id":"/private/accounts/10294152/ads/74032422","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","locations":"Estado","municipality":"Delegación","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/938493856","list_price":{"currency":"MXN","label":"$ 23,850,000","price_value":23850000},"prices":[{"currency":"MXN","label":"$ 23,850,000","price_value":23850000}],"share_link":"https://www.segundamano.mx/anuncios/ciudad-de-mexico/la-magdalena-contreras/venta-inmuebles/22814-ocotepec-san-jeronimo-lidice-938493856","subject":"22814 Ocotepec, San Jerónimo Lídice","thumbnail":{"path":"75/7566947077.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7566947077.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7583993715.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7592517034.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7501040353.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7575470396.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7518086991.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7509563672.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7526610310.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7535133629.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7543656948.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7552180267.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7569226905.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7586273543.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7577750224.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7560703586.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7594796862.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7503320181.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"11","key":"region","label":"Ciudad de México","locations":[{"code":"299","key":"municipality","label":"La Magdalena Contreras","locations":[{"code":"34193","key":"area","label":"San Jerónimo Lídice"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2206-6108 - Hermosa y elegante casa en venta. Esta increíble propiedad consta de 642 m2 de construcción y 535 m2 de terreno. La casa cuenta con las siguientes características y amenidades las cuales son perfectas para que vivas con toda tu familia ya que tiene: cuatro recámaras con vestidor cada una, cuatro baños completos para cada recámara, un medio baño para visitas, sala de tv, dos salas de estar, comedor, cocina integral y equipada, cuarto de servicio con baño, cuarto de chofer con medio baño, cuarto de lavado, bodega, amplio jardín y seis espacios de estacionamiento. Esta casa cuenta con espacios amplios y bien iluminados. Ubicada en una excelente zona en un fraccionamiento con vigilancia las 24 horas, además tiene a muy pocos minutos de distancia, restaurantes, parques, escuelas, avenidas principales, tiendas, bancos y muchos otros servicios más. No dejes pasar la oportunidad de vivir en un lugar céntrico, tranquilo y muy accesible. Sin duda las cualidades de la propiedad así como su ubicación la hacen una gran opción.","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:34 CDT","value":1656812044},"ad_details":{"bathrooms":{"single":{"code":"7","label":"más de 5"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"2","label":"Casas"}},"lot_area":{"single":{"code":"535","label":"535 m²"}},"parking_lots":{"single":{"code":"7","label":"más de 5"}},"rooms":{"single":{"code":"4","label":"4"}},"size":{"single":{"code":"535","label":"535 m²"}}},"ad_id":"/private/accounts/10294152/ads/74120275","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Delegación","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/938372550","list_price":{"currency":"MXN","label":"$ 1,250,000","price_value":1250000},"prices":[{"currency":"MXN","label":"$ 1,250,000","price_value":1250000}],"share_link":"https://www.segundamano.mx/anuncios/nuevo-leon/santa-catarina/venta-inmuebles/21553-rio-celeste-bosques-de-la-huasteca-938372550","subject":"21553 Río Celeste, Bosques de la Huasteca","thumbnail":{"path":"74/7466156342.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"74/7466156342.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7456018209.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7574963039.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7583486358.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7491726299.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7592009677.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"21","key":"region","label":"Nuevo León","locations":[{"code":"1012","key":"municipality","label":"Santa Catarina","locations":[{"code":"18645","key":"area","label":"Bosques de La Huasteca"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2205-2FB8 - Casa a la venta en la Río Celeste, Bosques de la Huasteca, Santa Catarina distribuida en 2 habitaciones, 1 baño y Cuarto de Servicio. El diseño de este inmueble permite tener calidez e iluminación en todas las estaciones del año, amplio espacio para sala, comedor, patio común y 1 espacio de estacionamiento. Con muchísimo potencial pues en sus alrededores hay diversos comercios, restaurantes, tiendas de autoservicio, escuelas, gasolineras, deportivos, bancos, gimnasios, etc., por la tranquilidad de la zona y su alta afluencia, es una excelente oportunidad que no puedes dejar perder.","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812038},"ad_details":{"bathrooms":{"single":{"code":"2","label":"1"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"2","label":"Casas"}},"lot_area":{"single":{"code":"65","label":"65 m²"}},"parking_lots":{"single":{"code":"2","label":"1"}},"rooms":{"single":{"code":"2","label":"2"}},"size":{"single":{"code":"65","label":"65 m²"}}},"ad_id":"/private/accounts/10294152/ads/73983465","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Municipio","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/937356187","list_price":{"currency":"MXN","label":"$ 5,300,000","price_value":5300000},"prices":[{"currency":"MXN","label":"$ 5,300,000","price_value":5300000}],"share_link":"https://www.segundamano.mx/anuncios/estado-de-mexico/huixquilucan/venta-inmuebles/12031-privada-de-las-plazas-bosque-real-937356187","subject":"12031 Privada de las Plazas, Bosque Real","thumbnail":{"path":"75/7596962187.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7596962187.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7531055463.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7505485506.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7514008825.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7522532144.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7556625420.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7462874182.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7548102101.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7496967458.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7573672058.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7565148739.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"17","key":"region","label":"Estado de México","locations":[{"code":"711","key":"municipality","label":"Huixquilucan","locations":[{"code":"90172","key":"area","label":"Bosque Real (Fracc.)"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2111-8739 - Exclusivo y amplio departamento con acabados excelentes, ubicado en Privada de las Plazas, Bosque Real, Huixquilucan. La entrada es directa al espacio sala-comedor, donde es un espacio perfecto para convivir con familiares y amigos, aquí también es donde se integra la cocina integral y suficientes áreas de guardado. Posteriormente cuenta con tres hermosas habitaciones con excelente iluminación natural, generando sensación de calidez que permite tener apagada la luz eléctrica durante el día y cada una con su closets, dos baños completos. El departamento tiene dos lugares de estacionamiento. Superficie de construcción: 125 m2. Cabe resaltar las amenidades con la que cuenta: bodega, cocina integral, cuarto de servicio, elevador, business center, cocina equipada, gimnasio, jardín, salón de usos múltiples, vigilancia. Es una excelente opción para adquirir este espectacular departamento.","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812038},"ad_details":{"bathrooms":{"single":{"code":"3","label":"2"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"1","label":"Departamentos"}},"parking_lots":{"single":{"code":"3","label":"2"}},"rooms":{"single":{"code":"3","label":"3"}},"size":{"single":{"code":"125","label":"125 m²"}}},"ad_id":"/private/accounts/10294152/ads/72827629","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Municipio","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/938493855","list_price":{"currency":"MXN","label":"$ 5,300,000","price_value":5300000},"prices":[{"currency":"MXN","label":"$ 5,300,000","price_value":5300000}],"share_link":"https://www.segundamano.mx/anuncios/puebla/san-andres-cholula/venta-inmuebles/22731-yacatas-lomas-de-angelopolis-938493855","subject":"22731 Yácatas, Lomas de Angelópolis","thumbnail":{"path":"75/7532853801.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7532853801.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7549900439.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7436562896.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7541377120.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7524330482.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7558423758.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"23","key":"region","label":"Puebla","locations":[{"code":"1704","key":"municipality","label":"San Andrés Cholula","locations":[{"code":"141081","key":"area","label":"Lomas de Angelópolis"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2206-F941 - Bonita y amplia casa en venta ubicada en Lomas de Angelópolis, San Andrés Cholula. Esta propiedad cuenta con 385 m2 de construcción y 209 m2 de terreno. La casa cuenta con las siguientes características y amenidades: 4 habitaciones la principal cuenta con vestidor, 4 baños completos, 1 medio baño, sala comedor, cocina equipada con granito, jardín, estudio, sala de tv, terraza, roof garden, cuarto de lavado, cisterna, acabados de lujo con pisos de mármol y 1 espacio de estacionamiento con facilidad para estacionarse. Ubicada en una excelente zona, tiene a muy pocos minutos de distancia, restaurantes, parques, escuelas, avenidas principales, tiendas, bancos y muchos servicios mas. No dejes pasar la oportunidad de vivir en un lugar céntrico, tranquilo y muy accesible. Sin duda las cualidades de la propiedad, así como la ubicación la hacen una gran opción.","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812037},"ad_details":{"bathrooms":{"single":{"code":"5","label":"4"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"2","label":"Casas"}},"lot_area":{"single":{"code":"209","label":"209 m²"}},"parking_lots":{"single":{"code":"2","label":"1"}},"rooms":{"single":{"code":"4","label":"4"}},"size":{"single":{"code":"209","label":"209 m²"}}},"ad_id":"/private/accounts/10294152/ads/74120274","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Municipio","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/937787041","list_price":{"currency":"MXN","label":"$ 3,250,000","price_value":3250000,"old_price":{"label":"$ 3,000,000","price_value":3000000}},"prices":[{"currency":"MXN","label":"$ 3,250,000","price_value":3250000,"old_price":{"label":"$ 3,000,000","price_value":3000000}}],"share_link":"https://www.segundamano.mx/anuncios/puebla/puebla/venta-inmuebles/15199-amatista-zona-cementos-atoyac-937787041","subject":"15199 Amatista, Zona Cementos Atoyac","thumbnail":{"path":"75/7598233614.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7598233614.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7506756933.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7515280252.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7589710295.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7523803571.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7540850209.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7532326890.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7549373528.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7557896847.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"23","key":"region","label":"Puebla","locations":[{"code":"1699","key":"municipality","label":"Puebla","locations":[{"code":"100452","key":"area","label":"Zona Cementos Atoyac"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2202-F27A - Se vende hermosa casa con 208m2 de construcción y 120m2 de terreno. El acceso a la casa es directo, donde se conecta con un amplio espacio que es ideal para la sala y comedor, tiene ventanas grandes que brindan muy buena iluminación natural y buena ventilación. La casa cuenta con excelentes amenidades y características como área de asadores, jardín, family room, áreas verdes, juegos infantiles, cocina equipada, roof garden, vigilancia y cuarto de lavado. Otra increíble característica de esta casa es que tiene una excelente distribución de espacios, lo que la hace perfecta para recibir a familiares y amigos y pasar increíbles momentos. Podrás encontrar tres amplias y lindas habitaciones y tres baños y medio. El estacionamiento es una característica muy favorable porque cuenta con una capacidad de 2 automóviles. Su excelente ubicación te permitirá tener al alcance todos los servicios ya que cerca de la zona encontraras restaurantes, centros comerciales, escuelas, hospitales y medios de transporte. Aprovecha y goza de un lugar muy tranquilo y bonito para vivir. Agenda tu cita y enamórate de cada detalle.","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812036},"ad_details":{"bathrooms":{"single":{"code":"4","label":"3"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"2","label":"Casas"}},"lot_area":{"single":{"code":"120","label":"120 m²"}},"parking_lots":{"single":{"code":"3","label":"2"}},"rooms":{"single":{"code":"3","label":"3"}},"size":{"single":{"code":"208","label":"208 m²"}}},"ad_id":"/private/accounts/10294152/ads/73316646","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Municipio","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/936955293","list_price":{"currency":"MXN","label":"$ 4,700,000","price_value":4700000,"old_price":{"label":"$ 5,290,000","price_value":5290000}},"prices":[{"currency":"MXN","label":"$ 4,700,000","price_value":4700000,"old_price":{"label":"$ 5,290,000","price_value":5290000}}],"share_link":"https://www.segundamano.mx/anuncios/puebla/puebla/venta-inmuebles/9473-san-judas-tadeo-santa-cruz-buenavista-936955293","subject":"9473 San Judas Tadeo, Santa Cruz Buenavista","thumbnail":{"path":"75/7549785936.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7549785936.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7575355893.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7500925850.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7592402531.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7509449169.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7569112402.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7503205678.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7586159040.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7511728997.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7577635721.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7528775635.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7537298954.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7545822273.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7562868911.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7460594354.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7443547716.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7554345592.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7571392230.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7579915549.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7588438868.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"23","key":"region","label":"Puebla","locations":[{"code":"1699","key":"municipality","label":"Puebla","locations":[{"code":"19338","key":"area","label":"Santa Cruz Buenavista"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2109-0948 - Espectacular departamento de 220 m2 ubicado en la colonia Santa Cruz Buenavista del municipio de Puebla, Puebla. Esta propiedad, cuenta con tres habitaciones, tres baños completos, un medio baño, sala, comedor y cocina integral. Como vías principales de acceso podemos encontrar Calzada Zavaleta, Avenida Pinos, Camino Real a Cholula, entre otras vialidades que permiten el fácil traslado a cualquier punto en poco tiempo. En los alrededores del inmueble hay diversos comercios, restaurantes, tiendas, etc. El departamento además cuenta con cuarto de lavado, terraza, roof garden, jacuzzi, salón de fiestas, jardín, portón eléctrico, elevador, dos lugares de estacionamiento, vigilancia y circuito cerrado de seguridad. Es una excelente opción que no puedes dejar perder, ¡agenda una cita y ven a conocer tu próximo hogar!","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812035},"ad_details":{"bathrooms":{"single":{"code":"4","label":"3"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"1","label":"Departamentos"}},"parking_lots":{"single":{"code":"3","label":"2"}},"rooms":{"single":{"code":"3","label":"3"}},"size":{"single":{"code":"220","label":"220 m²"}}},"ad_id":"/private/accounts/10294152/ads/72373500","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"price_drop":true,"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Municipio","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/938417490","list_price":{"currency":"MXN","label":"$ 137,000","price_value":137000,"old_price":{"label":"$ 155,000","price_value":155000}},"prices":[{"currency":"MXN","label":"$ 137,000","price_value":137000,"old_price":{"label":"$ 155,000","price_value":155000}}],"share_link":"https://www.segundamano.mx/anuncios/ciudad-de-mexico/alvaro-obregon/suv-jeep-y-van/renault-kangoo-excelente-estado-posible-cambio-938417490","subject":"Renault Kangoo Excelente estado POSIBLE CAMBIO","thumbnail":{"path":"69/6980962870.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"69/6980962870.jpg","base_url":"http://img.segundamano.mx"},{"path":"69/6927543128.jpg","base_url":"http://img.segundamano.mx"},{"path":"69/6904252999.jpg","base_url":"http://img.segundamano.mx"},{"path":"69/6963916232.jpg","base_url":"http://img.segundamano.mx"},{"path":"69/6912776318.jpg","base_url":"http://img.segundamano.mx"},{"path":"69/6944589766.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Luis","since":"2015-01-01 23:24:47.031409","user_uuid":"72938924-26b3-4bcb-aa12-944940d9b643"}},"locations":[{"code":"11","key":"region","label":"Ciudad de México","locations":[{"code":"290","key":"municipality","label":"Álvaro Obregón","locations":[{"code":"141078","key":"area","label":"Álvaro Obregón"}]}]}],"body":"Renault Kangoo Van 2014, Factura de empresa con soporte de la original, todo pagado, aire acondicionado, en muy buen estado.\n\nPrecio $137,000.00 a tratar.\nPOSIBLE CAMBIO POR PICK UP O CAMIONETA 3 1/2 TONELADAS\nContesto WhatsApp 5522175919\n","category":{"code":"2022","icon":"http://www.segundamano.mx/img/nga/vehiculos.png","color":"E1E1E1","label":"Suv, Jeep y Van","parent":{"code":"2020","label":"Automóviles y camionetas","parent":{"code":"2000","label":"Vehículos"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812033},"ad_details":{"fuel":{"single":{"code":"1","label":"Gasolina"}},"garantiplus":{"single":{"code":"1","label":"1"}},"gearbox":{"single":{"code":"1","label":"Manual"}},"label":{"multiple":[{"code":"1","label":"Urgente"}]},"mileage":{"single":{"code":"71000","label":"71000"}},"regdate":{"single":{"code":"2014","label":"2014"}},"suv_body_type":{"single":{"code":"8","label":"Van"}},"vehicle_brand":{"single":{"code":"137","label":"Renault"}},"vehicle_model":{"single":{"code":"22901","label":"Kangoo"}},"version_code":{"single":{"code":"10765","label":"4p  Express Man.   trac.del. Tela   109HP   BA CPC       2 pas."}}},"ad_id":"/private/accounts/4093363/ads/74035008","company_ad":true,"paid":false,"phone_hidden":true,"type":{"code":"s","label":"Vendo"},"price_drop":true,"price_classification":4},"labelmap":{"area":"Colonia","body":"Descripción del anuncio","category":"Categoría","fuel":"Combustible","gearbox":"Transmisión","images":"Foto principal","label":"Etiqueta","locations":"Estado","mileage":"Kilometraje","municipality":"Delegación","prices":"Precio","regdate":"Año","subject":"Título","suv_body_type":"Carrocería","type":"Tipo de anuncio","user":"Nombre","vehicle_brand":"Marca","vehicle_model":"Modelo"}},{"ad":{"list_id":"/public/ads/937370655","list_price":{"currency":"MXN","label":"$ 1,980,000","price_value":1980000},"prices":[{"currency":"MXN","label":"$ 1,980,000","price_value":1980000}],"share_link":"https://www.segundamano.mx/anuncios/puebla/san-pedro-cholula/venta-inmuebles/12216-avenida-9-poniente-cholula-937370655","subject":"12216 -Avenida 9 poniente, Cholula","thumbnail":{"path":"75/7570910740.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7570910740.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7553864102.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7587957378.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7562387421.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7579434059.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7505004016.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7522050654.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7596480697.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7530573973.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7513527335.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7547620611.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7539097292.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7556143930.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7564667249.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7573190568.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7581713887.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7590237206.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7598760525.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7507283844.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7515807163.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"23","key":"region","label":"Puebla","locations":[{"code":"1725","key":"municipality","label":"San Pedro Cholula","locations":[{"code":"54209","key":"area","label":"Cholula"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2111-5713 - Hermosa casa en venta, ubicada en San Andrés Cholula, Puebla. El inmueble se encuentra en buen estado, cuenta con 160 m2 de superficie de construcción. Sus acabados y la distribución de los espacios te permite encontrar en cada rincón un espacio acogedor y especial. Cuenta con cinco habitaciones, cuatro baños completos, sala y comedor. Por otro lado, cuenta con una cocina integral ideal para preparar tus platillos favoritos. Adicionalmente podrás disfrutar de dos espacios de estacionamiento y vigilancia. Es una excelente opción ya que a sus alrededores hay una creciente vida e interés por la zona dándole a esto una basta plusvalía, ya que podrás encontrar restaurantes, parques, tiendas de autoservicio, bancos, papelerías, farmacias y diferentes tipos de comercios caminando, muy cerca de las principales vías de tránsito ¡Ven a conocer tu próximo hogar!","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812031},"ad_details":{"bathrooms":{"single":{"code":"5","label":"4"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"2","label":"Casas"}},"lot_area":{"single":{"code":"108","label":"108 m²"}},"parking_lots":{"single":{"code":"3","label":"2"}},"rooms":{"single":{"code":"5","label":"5"}},"size":{"single":{"code":"160","label":"160 m²"}}},"ad_id":"/private/accounts/10294152/ads/72844214","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","label":"Etiqueta","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Municipio","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/938349392","list_price":{"currency":"MXN","label":"$ 3,980,000","price_value":3980000},"prices":[{"currency":"MXN","label":"$ 3,980,000","price_value":3980000}],"share_link":"https://www.segundamano.mx/anuncios/ciudad-de-mexico/coyoacan/venta-inmuebles/21032-jose-rocabruna-copilco-el-alto-938349392","subject":"21032 José Rocabruna, Copilco el Alto","thumbnail":{"path":"74/7441601958.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"74/7441601958.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7530440897.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7504870940.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7513394259.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7521917578.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7467171915.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7538964216.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7547487535.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7564534173.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7573057492.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7556010854.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7581580811.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7590104130.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"11","key":"region","label":"Ciudad de México","locations":[{"code":"293","key":"municipality","label":"Coyoacán","locations":[{"code":"119479","key":"area","label":"Copilco El Alto"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2205-640C - Hermoso y cómodo Penthouse en venta. Esta propiedad consta de 150 m2. El departamento cuenta con las siguientes características y amenidades las cuales son perfectas para que vivas en un lugar tranquilo y agradable, ya que tiene: dos recámaras con closet y la principal con vestidor, dos baños completos, un medio baño, balcón, sala, comedor, cocina integral, área de lavado, terraza con roof Garden, cuarto de servicio, seguridad y dos espacios de estacionamiento. Este departamento cuenta con espacios amplios y bien iluminados. Ubicado en una excelente zona, tiene a muy pocos minutos de distancia, restaurantes, parques, escuelas, avenidas principales, tiendas, bancos y muchos otros servicios más. No dejes pasar la oportunidad de vivir en un lugar céntrico, tranquilo y muy accesible. Sin duda las cualidades del departamento, así como su ubicación lo hacen una gran opción.","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812030},"ad_details":{"bathrooms":{"single":{"code":"3","label":"2"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"1","label":"Departamentos"}},"parking_lots":{"single":{"code":"1","label":"0"}},"rooms":{"single":{"code":"2","label":"2"}}},"ad_id":"/private/accounts/10294152/ads/73957051","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","label":"Etiqueta","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Delegación","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/937768592","list_price":{"currency":"MXN","label":"$ 4,950,000","price_value":4950000,"old_price":{"label":"$ 5,500,000","price_value":5500000}},"prices":[{"currency":"MXN","label":"$ 4,950,000","price_value":4950000,"old_price":{"label":"$ 5,500,000","price_value":5500000}}],"share_link":"https://www.segundamano.mx/anuncios/ciudad-de-mexico/coyoacan/venta-inmuebles/13728-boulevard-adolfo-ruiz-cortinez-pedrega-937768592","subject":"13728 - Boulevard Adolfo Ruiz Cortinez, Pedrega...","thumbnail":{"path":"75/7554802440.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7554802440.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7563325759.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7427890073.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7537755802.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7529232483.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7546279121.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7580372397.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7571849078.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7588895716.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7597419035.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7505942354.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7514465673.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7522988992.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7531512311.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7540035630.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7548558949.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7557082268.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7565605587.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7574128906.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7582652225.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"11","key":"region","label":"Ciudad de México","locations":[{"code":"293","key":"municipality","label":"Coyoacán","locations":[{"code":"95693","key":"area","label":"Pedregal de Carrasco"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2201-94AE - Hermoso departamento en venta, Coyoacán, Ciudad de México. El inmueble cuenta con 110 m2 de superficie de construcción. Sus acabados y la distribución de los espacios te permite encontrar en cada rincón un espacio acogedor y especial. Cuenta con dos habitaciones, dos baños completos, sala y comedor. Por otro lado, cuenta con una cocina integral ideal para preparar tus platillos favoritos. Adicionalmente podrás disfrutar de dos espacios de estacionamiento, alberca, asadores, business center, cine, cancha de padel, gimnasio, jardín, ludoteca, Pista De Jogging, salón de adultos, sauna, seguridad (circuito cerrado) y vigilancia. Es una excelente opción ya que a sus alrededores hay una creciente vida e interés por la zona dándole a esto una basta plusvalía, ya que podrás encontrar restaurantes, parques, tiendas de autoservicio, bancos, papelerías, farmacias y diferentes tipos de comercios caminando, muy cerca de las principales vías de tránsito ¡Ven a conocer tu próximo hogar!","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812026},"ad_details":{"bathrooms":{"single":{"code":"3","label":"2"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"1","label":"Departamentos"}},"parking_lots":{"single":{"code":"3","label":"2"}},"rooms":{"single":{"code":"2","label":"2"}},"size":{"single":{"code":"110","label":"110 m²"}}},"ad_id":"/private/accounts/10294152/ads/73296025","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"price_drop":true,"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","label":"Etiqueta","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Delegación","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/937340827","list_price":{"currency":"MXN","label":"$ 3,300,000","price_value":3300000},"prices":[{"currency":"MXN","label":"$ 3,300,000","price_value":3300000}],"share_link":"https://www.segundamano.mx/anuncios/puebla/san-pedro-cholula/venta-inmuebles/11808-27-poniente-santa-maria-xixitla-937340827","subject":"11808 27 Poniente, Santa María Xixitla","thumbnail":{"path":"75/7585962092.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7585962092.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7577438773.jpg","base_url":"http://img.segundamano.mx"},{"path":"73/7308962774.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7568915454.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"23","key":"region","label":"Puebla","locations":[{"code":"1725","key":"municipality","label":"San Pedro Cholula","locations":[{"code":"54294","key":"area","label":"Santa María Xixitla"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2111-4031 - Maravillosa casa de 323 m2 ubicada en la colonia Santa María Xixitla del municipio de San Pedro Cholula, Puebla. Esta propiedad, cuenta con cuatro habitaciones, tres baños completos, tres medios baños, sala, comedor y cocina integral. Como vías principales de acceso podemos encontrar Avenida Ferrocarril, calle 29 Poniente, entre otras vialidades que permiten el fácil traslado a cualquier punto en poco tiempo. En los alrededores del inmueble hay diversos comercios, restaurantes, tiendas, escuelas, etc. La casa además cuenta con cuarto de servicio, lavandería, terraza, cisterna, tanque estacionario de gas y dos lugares de estacionamiento. Por la tranquilidad de la zona, es una excelente opción que no puedes dejar perder, ¡agenda una cita con uno de nuestros asesores y ven a conocer tu próximo hogar!","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812026},"ad_details":{"bathrooms":{"single":{"code":"5","label":"4"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"2","label":"Casas"}},"lot_area":{"single":{"code":"173","label":"173 m²"}},"parking_lots":{"single":{"code":"3","label":"2"}},"rooms":{"single":{"code":"4","label":"4"}},"size":{"single":{"code":"323","label":"323 m²"}}},"ad_id":"/private/accounts/10294152/ads/72810200","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","label":"Etiqueta","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Municipio","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/937848861","list_price":{"currency":"MXN","label":"$ 24,000,000","price_value":24000000},"prices":[{"currency":"MXN","label":"$ 24,000,000","price_value":24000000}],"share_link":"https://www.segundamano.mx/anuncios/estado-de-mexico/valle-de-bravo/venta-inmuebles/15198-prolongacion-cuadrilla-de-dolores-937848861","subject":"15198 Prolongación, Cuadrilla de Dolores","thumbnail":{"path":"75/7545207707.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7545207707.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7528161069.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7511114431.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7536684388.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7519637750.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7553731026.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7562254345.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"17","key":"region","label":"Estado de México","locations":[{"code":"784","key":"municipality","label":"Valle de Bravo","locations":[{"code":"32364","key":"area","label":"Cuadrilla de Dolores"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2202-F60D - Se ofrece a la venta hermosa casa, ubicado en Cuadrilla de Dolores muy cerca de el centro de Valle de Bravo, una de las zonas más exclusivas de toda la ciudad, en los alrededores de la zona se encuentran, los mejores restaurantes, escuelas, hospitales, centros comerciales, parques, zonas de recreación, además cuenta con múltiples vías de acceso para su fácil llegada y salida. Dicha propiedad se compone de 500 metros cuadrados de construcción habitables, 4200 de terreno total, con 6 muy amplias recámaras con baño completo cada una, un medio baño aparte, 6 lugares de estacionamiento de fácil estacionada techados, sala, comedor, cocina integral y muy bien equipada, bodega, alberca, canchas de paddel, canchas de tenis, canchas de futbol, canchas de basquet, balcón, garage, jardín, terraza, chimenea, gimnasio, salón de usos múltiples, cisterna, la propiedad se compone de dos plantas.","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812024},"ad_details":{"bathrooms":{"single":{"code":"7","label":"más de 5"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"2","label":"Casas"}},"lot_area":{"single":{"code":"4200","label":"4200 m²"}},"parking_lots":{"single":{"code":"7","label":"más de 5"}},"rooms":{"single":{"code":"6","label":"más de 5"}},"size":{"single":{"code":"500","label":"500 m²"}}},"ad_id":"/private/accounts/10294152/ads/73386631","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","label":"Etiqueta","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Municipio","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/934082331","list_price":{"currency":"MXN","label":"$ 5,038,000","price_value":5038000,"old_price":{"label":"$ 3,350,000","price_value":3350000}},"prices":[{"currency":"MXN","label":"$ 5,038,000","price_value":5038000,"old_price":{"label":"$ 3,350,000","price_value":3350000}}],"share_link":"https://www.segundamano.mx/anuncios/ciudad-de-mexico/benito-juarez/venta-inmuebles/d371-rafael-martinez-independencia-934082331","subject":"D371 - Rafael Martínez, Independencia","thumbnail":{"path":"75/7500444360.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7500444360.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7508967679.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7517490998.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7591921041.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7526014317.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7534537636.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7543060955.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7560107593.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7568630912.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7551584274.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7577154231.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7585677550.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7511247507.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7594200869.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7502724188.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7519770826.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7528294145.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7432003240.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7536817464.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7545340783.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"11","key":"region","label":"Ciudad de México","locations":[{"code":"292","key":"municipality","label":"Benito Juárez","locations":[{"code":"7490","key":"area","label":"Independencia"}]}]}],"shop":{"id":6785},"body":"Ref: TD-2007-02D1 - Excelente oportunidad para vivir en una de las zonas con mayor tradición y crecimiento de la ciudad, la colonia Benito Juarez, gracias a su ubicación tenemos vías principales que permiten que el acceso al desarrollo sea practico, ya sea en trasporte público o privado. Por esta zona contamos con restaurantes, cafeterías, bares, bancos, museos, centros comerciales entre otros. El departamento cuenta con una buena distribucion de espacio, un espacio privado y estacionamiento. El departamento cuentan con recamaras amplias y baños con materiales resistentes y de diseño. El destacado diseño de este desarrollo y los materiales de excelente calidad lo hacen un lugar ideal para vivir, una muy buena oportunidad para aquellas personas que buscan una buena relación precio-calidad. Sin duda es una muy buena oportunidad.","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812022},"ad_details":{"bathrooms":{"single":{"code":"3","label":"2"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"1","label":"Departamentos"}},"parking_lots":{"single":{"code":"2","label":"1"}},"rooms":{"single":{"code":"3","label":"3"}},"size":{"single":{"code":"63","label":"63 m²"}}},"ad_id":"/private/accounts/10294152/ads/69064595","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","label":"Etiqueta","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Delegación","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/937568474","list_price":{"currency":"MXN","label":"$ 6,200,000","price_value":6200000},"prices":[{"currency":"MXN","label":"$ 6,200,000","price_value":6200000}],"share_link":"https://www.segundamano.mx/anuncios/ciudad-de-mexico/tlalpan/venta-inmuebles/12636-maxcanu-heroes-de-padierna-937568474","subject":"12636 Maxcanu, Héroes de Padierna","thumbnail":{"path":"75/7536290553.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7536290553.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7544813872.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7519243915.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7553337191.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7527767234.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7561860510.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7578907148.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7587430467.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7570383829.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7595953786.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7513000424.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7504477105.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7530047062.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7538570381.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7521523743.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7547093700.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7581186976.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7555617019.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7572663657.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7564140338.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"11","key":"region","label":"Ciudad de México","locations":[{"code":"303","key":"municipality","label":"Tlalpan","locations":[{"code":"119685","key":"area","label":"Héroes de Padierna"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2112-693B - Hermosa casa remodelada de dos niveles en venta, ubicada en Tlalpan, Ciudad de México. La propiedad cuenta con una superficie de construcción de 184m2, y una superficie de terreno de 152m2. Los acabados de lujo y la distribución de los espacios te permite encontrar en cada rincón un lugar especial, pues cuenta con tres habitaciones de buen tamaño (la principal con baño completo), tres baños completos de excelente calidad, y un medio baño (dos en planta baja, y dos en planta alta). Por otro lado, posee una sala en desnivel, un amplio comedor (hasta para 12 personas), y una cocina integral con acabados de alta calidad ideal para preparar tus platillos favoritos. Adicionalmente, la propiedad cuenta con: seguridad (circuito cerrado), alarma ADT, cerca eléctrica, malla ciclónica militar, 10 cámaras CCTV, portón eléctrico, dos mini splits LG frío y caliente (ubicados en dos de las habitaciones), cuarto de servicio con baño completo, dos bodegas de 3.5m2, cuarto de lavado, sala de tv, área de asador, terraza con jardín, cisterna (30,000 litros), dos lugares de estacionamiento internos, y cinco lugares externos para visitas. Además, la ubicación de este inmueble es excelente, pues colinda con la carretera Picacho-Ajusco. Sin olvidar que a sus alrededores se encuentran todo tipo de comercios, corporativos, escuelas, centros universitarios, plazas comerciales, bancos, hospitales, entre otros. ¡Te invitamos a conocer esta gran casa, será tu mejor opción!","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812017},"ad_details":{"bathrooms":{"single":{"code":"4","label":"3"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"2","label":"Casas"}},"lot_area":{"single":{"code":"152","label":"152 m²"}},"parking_lots":{"single":{"code":"3","label":"2"}},"rooms":{"single":{"code":"3","label":"3"}},"size":{"single":{"code":"184","label":"184 m²"}}},"ad_id":"/private/accounts/10294152/ads/73067997","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","label":"Etiqueta","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Delegación","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/938367282","list_price":{"currency":"MXN","label":"$ 6,151,000","price_value":6151000},"prices":[{"currency":"MXN","label":"$ 6,151,000","price_value":6151000}],"share_link":"https://www.segundamano.mx/anuncios/estado-de-mexico/tlalnepantla-de-baz/venta-inmuebles/21631-paseo-de-los-alelihes-valle-ceylan-938367282","subject":"21631 Paseo de los Alelihes, Valle Ceylán","thumbnail":{"path":"75/7507777716.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7507777716.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7582207759.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7573684440.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7599254397.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7457302999.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7590731078.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7516301035.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"17","key":"region","label":"Estado de México","locations":[{"code":"778","key":"municipality","label":"Tlalnepantla de Baz","locations":[{"code":"14671","key":"area","label":"Valle Ceylán (Fracc.)"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2205-7E86 - Casa a la venta en la Paseo de los Alelihes, Valle Ceylán, Tlalnepantla de Baz. Esta amplia propiedad está distribuida en 4 habitaciones, 2 baños, 2 medios baños, Cuarto de Servicio y Balcón. El diseño de este inmueble permite tener calidez e iluminación en todas las estaciones del año, amplio espacio para sala y comedor, una espectacular cocina integral y una Terraza para disfrutar en compañía de tu familia . Cuenta con 1 estacionamiento amplio . Esta casa está ubicada en una extraordinaria zona, la cual cuenta Con muchísimo potencial y conectividad pues en sus alrededores hay diversos comercios, restaurantes, tiendas de autoservicio, escuelas, gasolineras, deportivos, bancos, gimnasios, etc., por la tranquilidad de la zona y su alta afluencia, es una excelente oportunidad que no puedes dejar perder.","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812016},"ad_details":{"bathrooms":{"single":{"code":"4","label":"3"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"2","label":"Casas"}},"lot_area":{"single":{"code":"148","label":"148 m²"}},"parking_lots":{"single":{"code":"2","label":"1"}},"rooms":{"single":{"code":"4","label":"4"}},"size":{"single":{"code":"148","label":"148 m²"}}},"ad_id":"/private/accounts/10294152/ads/73977493","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","label":"Etiqueta","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Municipio","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/937334040","list_price":{"currency":"MXN","label":"$ 3,800,000","price_value":3800000},"prices":[{"currency":"MXN","label":"$ 3,800,000","price_value":3800000}],"share_link":"https://www.segundamano.mx/anuncios/nuevo-leon/monterrey/venta-inmuebles/11705-blvd-antonio-l-rodriguez-santa-maria-937334040","subject":"11705 Blvd. Antonio L. Rodríguez, Santa María","thumbnail":{"path":"74/7414547259.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"74/7414547259.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7507169341.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7515692660.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7598646022.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7430464741.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7590122703.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7448640535.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7524215979.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"21","key":"region","label":"Nuevo León","locations":[{"code":"1003","key":"municipality","label":"Monterrey","locations":[{"code":"18043","key":"area","label":"Santa María"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2111-0A87 - Exclusivo y amplio departamento con acabados excelentes, ubicado en Blvd. Antonio L. Rodríguez, Santa María, Monterrey, Nuevo León. La entrada es directa al espacio sala-comedor, donde es un espacio perfecto para convivir con familiares y amigos, aquí también es donde se integra la cocina integral y suficientes áreas de guardado. Posteriormente cuenta con una hermosa habitación con excelente iluminación natural, generando sensación de calidez que permite tener apagada la luz eléctrica durante el día y cada una con su closets, un baño completo. El departamento tiene dos lugares de estacionamiento. Superficie de construcción: 70 m2. Cabe resaltar las amenidades con la que cuenta: cocina integral, alberca, asadores, balcón, cocina equipada, gimnasio, ludoteca, sala de juegos, salón de eventos, seguridad, sky lounge, se entrega amueblado. Es una excelente opción para adquirir este espectacular departamento.","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812016},"ad_details":{"bathrooms":{"single":{"code":"2","label":"1"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"1","label":"Departamentos"}},"parking_lots":{"single":{"code":"3","label":"2"}},"rooms":{"single":{"code":"1","label":"1"}},"size":{"single":{"code":"70","label":"70 m²"}}},"ad_id":"/private/accounts/10294152/ads/72802454","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","label":"Etiqueta","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Municipio","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/938061465","list_price":{"currency":"MXN","label":"$ 1,980,000","price_value":1980000},"prices":[{"currency":"MXN","label":"$ 1,980,000","price_value":1980000}],"share_link":"https://www.segundamano.mx/anuncios/jalisco/tlaquepaque/venta-inmuebles/17842-prol-manuel-lopez-cotilla-tlaquepaque-938061465","subject":"17842 Prol. Manuel López Cotilla, Tlaquepaque","thumbnail":{"path":"75/7506687851.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7506687851.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7515211170.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7532257808.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7523734489.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7540781127.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7549304446.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7566351084.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7557827765.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7574874403.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7470060179.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7583397722.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7487106817.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7495630136.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"16","key":"region","label":"Jalisco","locations":[{"code":"648","key":"municipality","label":"Tlaquepaque","locations":[{"code":"12311","key":"area","label":"Tlaquepaque Centro"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2203-DFFA - Se vende hermosa casa con 108m2 de construcción y 80m2 de terreno. Ubicada en colonia Tlaquepaque. El acceso a la casa es directo, donde se conecta con un amplio espacio que es ideal para la sala y comedor, tiene ventanas grandes que brindan muy buena iluminación natural y buena ventilación. Cuenta con cocina integral, terraza, alberca, cuarto de lavado, dog park, área infantil, gimnasio, áreas deportivas, jardín, casa club y seguridad. Tiene excelente distribución de espacios. Podrás encontrar dos lindas habitaciones y dos baños y medio. El estacionamiento cuenta con capacidad de 2 automóviles. Su excelente ubicación te permitirá tener al alcance todos los servicios ya que cerca de la zona encontraras restaurantes, centros comerciales, escuelas, hospitales y medios de transporte. Aprovecha y goza de un lugar muy tranquilo y bonito para vivir. Agenda tu cita y enamórate de cada detalle.","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812013},"ad_details":{"bathrooms":{"single":{"code":"3","label":"2"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"2","label":"Casas"}},"lot_area":{"single":{"code":"80","label":"80 m²"}},"parking_lots":{"single":{"code":"3","label":"2"}},"rooms":{"single":{"code":"2","label":"2"}},"size":{"single":{"code":"108","label":"108 m²"}}},"ad_id":"/private/accounts/10294152/ads/73629909","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","label":"Etiqueta","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Municipio","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}},{"ad":{"list_id":"/public/ads/938367281","list_price":{"currency":"MXN","label":"$ 4,600,000","price_value":4600000},"prices":[{"currency":"MXN","label":"$ 4,600,000","price_value":4600000}],"share_link":"https://www.segundamano.mx/anuncios/estado-de-mexico/naucalpan-de-juarez/venta-inmuebles/21646-zenzontle-capulin-lomas-de-las-fuentes-938367281","subject":"21646 Zenzontle Capulín, Lomas de las Fuentes","thumbnail":{"path":"75/7599102870.jpg","base_url":"http://img.segundamano.mx"},"images":[{"path":"75/7599102870.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7582056232.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7573532913.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7590579551.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7507626189.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7516149508.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7533196146.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7524672827.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7550242784.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7541719465.jpg","base_url":"http://img.segundamano.mx"},{"path":"75/7558766103.jpg","base_url":"http://img.segundamano.mx"},{"path":"74/7440377055.jpg","base_url":"http://img.segundamano.mx"}],"user":{"account":{"name":"Compras TrueHome","since":"2019-09-13 09:28:24.491094","user_uuid":"50ad8d6f-aa48-4e85-a55e-1ef7b3ee8b18"}},"locations":[{"code":"17","key":"region","label":"Estado de México","locations":[{"code":"731","key":"municipality","label":"Naucalpan de Juárez","locations":[{"code":"14173","key":"area","label":"Lomas de Las Fuentes (Fracc.)"}]}]}],"shop":{"id":6785},"body":"Ref: TH-2205-CF78 - Se vende hermosa casa con 173m2 de construcción y 125m2 de terreno. Ubicada en colonia Lomas de las Fuentes. El acceso a la casa es directo, donde se conecta con un amplio espacio que es ideal para la sala y comedor, tiene ventanas grandes que brindan muy buena iluminación natural y buena ventilación. Cuenta con cocina integral, cuarto de lavado, jardín, patio interior y sala de tv. Tiene excelente distribución de espacios. Podrás encontrar tres lindas habitaciones y dos baños y medio. El estacionamiento cuenta con capacidad de un automóvil. Su excelente ubicación te permitirá tener al alcance todos los servicios ya que cerca de la zona encontraras restaurantes, centros comerciales, escuelas, hospitales y medios de transporte. Aprovecha y goza de un lugar muy tranquilo y bonito para vivir. Agenda tu cita y enamórate de cada detalle.","category":{"code":"1020","icon":"http://www.segundamano.mx/img/nga/inmuebles.png","color":"FDE8DE","label":"Venta inmuebles","parent":{"code":"1020","label":"Venta inmuebles","parent":{"code":"1000","label":"Inmuebles"}}},"list_time":{"label":"02 Jul 22 20:33 CDT","value":1656812012},"ad_details":{"bathrooms":{"single":{"code":"3","label":"2"}},"contact_email":{"single":{"code":"ag060003@ubiflow.mx","label":"ag060003@ubiflow.mx"}},"estate_type":{"single":{"code":"2","label":"Casas"}},"lot_area":{"single":{"code":"125","label":"125 m²"}},"parking_lots":{"single":{"code":"2","label":"1"}},"rooms":{"single":{"code":"3","label":"3"}},"size":{"single":{"code":"125","label":"125 m²"}}},"ad_id":"/private/accounts/10294152/ads/73977492","company_ad":true,"paid":false,"phone_hidden":false,"type":{"code":"s","label":"Vendo"},"shop_id":6785,"with_shop":true,"price_classification":4},"labelmap":{"area":"Colonia","bathrooms":"Baños","body":"Descripción del anuncio","category":"Categoría","estate_type":"Tipo de inmueble","images":"Foto principal","label":"Etiqueta","locations":"Estado","lot_area":"Superficie de terreno","municipality":"Municipio","parking_lots":"Estacionamiento","prices":"Precio","rooms":"Habitaciones","size":"Superficie construida","subject":"Título","type":"Tipo de anuncio","user":"Nombre de la compañía"}}],"next_page":"eyJjb3VudGVyX21hcCI6ImFsbCIsImxpbSI6IjE5IiwibyI6IjkzODM2NzI4MSwxNjU2ODEyMDEyLDQ2MDAwMDAifQ==","sorting":"date","counter_map":{"all":1793051},"advertisement":true}
+Request method:	GET
+Request URI:	https://webapi.segundamano.mx/credits/v1/private/accounts/11708897
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Body response :{"balance":{"balance":0},"Transactions":[]}
+
+Request method:	PATCH
+Request URI:	https://webapi.segundamano.mx/nga/api/v1/private/accounts/11708897?lang=es
+Proxy:			<none>
+Request params:	<none>
+Query params:	lang=es
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=tag:scmcoord.com,2013:api mc1x90e809d0256bc73f2b00b81eeadbe12101c25897_v2
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"account":{"password":"password123"}}
+Body response :{"access_token":"mc1xda9e780ef2970b47ab6c80eea60fbe596d507593_v2","account":{"account_id":"/private/accounts/11708897","can_publish":true,"email":"watson16c_x740r@yefx.info","email_verified":true,"locations":[],"name":"null","phone":"1001263297","phone_hidden":false,"professional":false,"rfc":"","uuid":"e8327699-e69c-4bc8-8d05-b0963d64d77d"},"token_type":"tag:scmcoord.com,2013:api"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

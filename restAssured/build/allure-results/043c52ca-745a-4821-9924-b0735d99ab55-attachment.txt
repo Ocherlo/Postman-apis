@@ -1,0 +1,39 @@
+{
+    "access_token": "mc1x65e22dc83b0b9dbc2449697a13ba35c23aa6b0b6_v2",
+    "account": {
+        "account_id": "/private/accounts/11708897",
+        "can_publish": true,
+        "email": "watson16c_x740r@yefx.info",
+        "email_verified": true,
+        "locations": [
+            
+        ],
+        "name": "null",
+        "phone": "805341305",
+        "phone_hidden": false,
+        "professional": false,
+        "rfc": "",
+        "uuid": "e8327699-e69c-4bc8-8d05-b0963d64d77d"
+    },
+    "ad_events": {
+        "24h": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        },
+        "7d": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        },
+        "total": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        }
+    },
+    "token_type": "tag:scmcoord.com,2013:api"
+}

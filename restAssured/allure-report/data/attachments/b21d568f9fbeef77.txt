@@ -1,0 +1,39 @@
+{
+    "access_token": "mc1x57ecebcc5e325c5829a7101f5e417eaeb67ee080_v2",
+    "account": {
+        "account_id": "/private/accounts/11686179",
+        "can_publish": true,
+        "email": "testsegundamano@mailinator.com",
+        "email_verified": true,
+        "locations": [
+            
+        ],
+        "name": "null",
+        "phone": "531577379",
+        "phone_hidden": false,
+        "professional": false,
+        "rfc": "XEXX010101000",
+        "uuid": "43f53a9a-934e-43d2-aeb3-b7727851ac3d"
+    },
+    "ad_events": {
+        "24h": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        },
+        "7d": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        },
+        "total": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        }
+    },
+    "token_type": "tag:scmcoord.com,2013:api"
+}

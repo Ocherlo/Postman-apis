@@ -1,0 +1,50 @@
+{
+    "access_token": "mc1x58116d4bd0f3330576b1a985bf48b5e7431db646_v2",
+    "account": {
+        "account_id": "/private/accounts/11708897",
+        "can_publish": true,
+        "email": "watson16c_x740r@yefx.info",
+        "email_verified": true,
+        "locations": [
+            {
+                "code": "16",
+                "key": "region",
+                "label": "Jalisco",
+                "locations": [
+                    {
+                        "code": "633",
+                        "key": "municipality",
+                        "label": "Tala"
+                    }
+                ]
+            }
+        ],
+        "name": "testsegundamanos",
+        "phone": "3221827122",
+        "phone_hidden": false,
+        "professional": false,
+        "rfc": "",
+        "uuid": "e8327699-e69c-4bc8-8d05-b0963d64d77d"
+    },
+    "ad_events": {
+        "24h": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        },
+        "7d": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        },
+        "total": {
+            "calls": 0,
+            "mails": 0,
+            "phone_views": 0,
+            "views": 0
+        }
+    },
+    "token_type": "tag:scmcoord.com,2013:api"
+}
